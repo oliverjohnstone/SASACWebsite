@@ -1,0 +1,128 @@
+<div>
+	<p>These are the photo competition winners for 2011/2012, watch out for the 2012/13 winners coming soon.</p>
+	<div class='image-gallery-row'>
+		<div class='image-gallery-column'>
+			<a class='image-gallery-image' href='#'>
+				<span class='roll-noimage'>1<span class='class'>st</span></span>
+				<img src="assets/img/photocompetition/humorous/SEAL-WEB.jpg" alt="Callum Mitchell's waving seal" class="img-rounded">
+			</a> 
+			<p>Callum Mitchell</p>
+		</div>
+		<div class='image-gallery-column'>
+			<a class='image-gallery-image' href='#'>
+				<span class='roll-noimage'>2<span class='class'>nd</span></span>
+				<img src="assets/img/noimage.jpg" class="img-rounded">
+			</a> 
+			<p>Spike Brown</p>
+		</div>
+		<div class='image-gallery-column'>
+			<a class='image-gallery-image' href='#'>
+				<span class='roll-noimage'>3<span class='class'>rd</span></span>
+				<img src="assets/img/photocompetition/humorous/SEASICK-WEB.jpg" alt="Suzy Jarman's photo entitled 'Collin's way of pretending he's not on a boat feeling seasick" class="img-rounded">
+			</a> 
+			<p>Suzy Jarman</p>
+		</div>
+		<div class='image-gallery-column'>
+			<p class='photo-category'>Humorous</p>
+		</div>
+	</div>
+
+	<div class='image-gallery-row'>
+		<div class='image-gallery-column'>
+			<a class='image-gallery-image' href='#'>
+				<span class='roll-noimage'>1<span class='class'>st</span></span>
+				<img src="assets/img/photocompetition/surface/DRAGONFLY-WEB" alt="Callum Mitchell's dragonfly" class="img-rounded">
+			</a> 
+			<p>Callum Mitchell</p>
+		</div>
+		<div class='image-gallery-column'>
+			<a class='image-gallery-image' href='#'>
+				<span class='roll-noimage'>2<span class='class'>nd</span></span>
+				<img src="assets/img/noimage.jpg" class="img-rounded">
+			</a> 
+			<p>Peter Knight</p>
+		</div>
+		<div class='image-gallery-column'>
+			<a class='image-gallery-image' href='#'>
+				<span class='roll-noimage'>3<span class='class'>rd</span></span>
+				<img src="assets/img/noimage.jpg" class="img-rounded">
+			</a> 
+			<p>Lisa Shafe</p>
+		</div>
+		<div class='image-gallery-column'>
+			<p class='photo-category'>Surface</p>
+		</div>
+	</div>
+
+	<div class='image-gallery-row'>
+		<div class='image-gallery-column'>
+			<a class='image-gallery-image' href='#'>
+				<span class='roll-noimage'>1<span class='class'>st</span></span>
+				<img src="assets/img/noimage.jpg" class="img-rounded">
+			</a> 
+			<p>Chris Norris</p>
+		</div>
+		<div class='image-gallery-column'>
+			<a class='image-gallery-image' href='#'>
+				<span class='roll-noimage'>2<span class='class'>nd</span></span>
+				<img src="assets/img/noimage.jpg" class="img-rounded">
+			</a> 
+			<p>Spike Brown</p>
+		</div>
+		<div class='image-gallery-column'>
+			<a class='image-gallery-image' href='#'>
+				<span class='roll-noimage'>3<span class='class'>rd</span></span>
+				<img src="assets/img/photocompetition/underwater/CLOWNFISH-WEB" alt="Paul Compton's Clown Fish" class="img-rounded">
+			</a> 
+			<p>Paul Compton</p>
+		</div>
+		<div class='image-gallery-column'>
+			<p class='photo-category'>Underwater</p>
+		</div>  
+	</div>
+</div>
+
+<div class="modal hide fade" id="image-box">
+	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		<h3></h3>
+	</div>
+	<div class="modal-body">
+		<img src="" class='img-box-image'>
+	</div>
+</div>
+
+<script type="text/javascript">
+$(function() {
+	// OPACITY OF BUTTON SET TO 0%
+	$(".roll-noimage").css("opacity","0");
+	 
+	// ON MOUSE OVER
+	$(".roll-noimage").hover(function () {
+	 
+		// SET OPACITY TO 70%
+		$(this).stop().animate({
+		opacity: .7
+		}, "slow");
+	},
+	 
+	// ON MOUSE OUT
+	function () {
+		// SET OPACITY BACK TO 50%
+		$(this).stop().animate({
+		opacity: 0
+		}, "slow");
+	});
+
+	$('.roll-noimage').click(function(e) {
+		$image = $(e.srcElement.nextElementSibling);
+		var msg = $image.attr('alt');
+		if (msg) {
+			$('.modal-header h3').html(msg);
+			$('.img-box-image').attr('src', $image.attr('src'));
+			$('#image-box').modal();
+		}
+		return false;
+	});
+});
+</script>

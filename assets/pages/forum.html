@@ -1,0 +1,41 @@
+<form action='assets/php/forum.php' method='post' class='forum-login-form'>
+	<fieldset>
+		<legend>Forum Login</legend>
+		<span class='label label-important' id='error' style='display:none; white-space:normal;'>Email and password combination not found, please try again.</span>
+		<input type='email' placeholder='email' required='true' name='email'></input>
+		<input type='password' placeholder='password' required='true' name='password'></input>
+		<label>
+			<input type='checkbox' name='remember' value='1' style='margin-bottom: 4px;
+margin-right: 5px;'>Remember me
+		</label>
+		<button name='submit' class='btn'>Login</button>
+	</fieldset>
+</form>
+
+<script type="text/javascript">
+	$('.forum-login-form').ajaxForm({ 
+		beforeSubmit: function() {
+			$('.forum-login-form input').attr('disabled', 'disabled');
+			$('.forum-login-form button').attr('disabled', 'disabled');
+			$('.label-important').hide();
+		},
+		success: function(responce) {
+			// responce = JSON.parse(responce);
+			if (responce.errors) {
+				$('.label-important').show();
+				$('.forum-login-form input').removeAttr('disabled');
+				$('.forum-login-form button').removeAttr('disabled');
+				return;
+			}
+			$('.forum-login-form').hide();
+			$('.header').hide();
+			// login(responce.username, responce.password);
+			$('.page-content').html(responce.body);
+		},
+		error: function() {
+			alert('An error occurred. Sorry.')
+			$('.forum-login-form input').removeAttr('disabled');
+			$('.forum-login-form button').removeAttr('disabled');
+		}
+	}); 
+</script>

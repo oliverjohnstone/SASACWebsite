@@ -1,0 +1,482 @@
+body {
+	background-image:url('../img/background-tile.png');
+	background-repeat: repeat;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 15px;
+}
+.image-gallery-row {
+	position: relative;
+	width: 100%;
+	height: 160px;
+	text-align: center;
+	font-size: 15px;
+}
+span.image-gallery-roll {
+	background:url('../img/info.png') center center no-repeat #000;
+    height: 140px;
+    position: absolute;
+    width: 140px;
+    z-index: 10;   
+    -webkit-box-shadow: 0px 0px 4px #000;
+    -moz-box-shadow: 0px 0px 4px  #000;
+    box-shadow: 0px 0px 4px  #000;
+    -webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+.img-rounded {
+	width: 140px;
+	height: 140px;
+}
+.image-gallery-column {
+	position: relative;
+	float: left;
+	width: 140px;
+	height: 100%;
+}
+.course-block{
+	display: block;
+	padding: 9.5px;
+	margin: 0 0 10px;
+	background-color: whiteSmoke;
+	border: 1px solid #CCC;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.twitter-share-button {
+	position: absolute;
+	left: 50px;
+	top: 35px;
+	z-index: 10;
+}
+.fb-like {
+	position: absolute;
+	left: 135px;
+	top: 35px;
+	z-index: 1;
+}
+.app {
+	position: relative;
+	width: 1020px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 30px;
+	top: 20px;
+	background-image: url('../img/contentbg.png');
+	background-repeat: no-repeat;
+	min-height: 750px;
+}
+.menu {
+	position: relative;
+	top: 50px;
+	left: 29px;
+	width: 217px;
+	padding-top: 30px;
+	float:left;
+	background-color: #F8F8F8;
+	margin-left: 11px;
+	margin-right: 11px;
+	height: 660px;
+	border-bottom-left-radius: 10px;
+}
+.menu ul {
+	list-style-type: none;
+	margin: 0;
+	position: relative;
+	left: -13px;
+}
+.menu li {
+	font-family: 'Helvetica', Arial, Verdana, sans serif;
+	font-size: 15px;
+	padding: 18px 18px 18px 40px;
+	width: 172px;
+}
+.menu .selected {
+	background: url('../img/nav.png') no-repeat;
+	left: -6px;
+}
+.menu .unselected {
+	font-family: 'Helvetica', Arial, Verdana, sans serif;
+	font-size: 15px;
+	width: 172px;
+}
+.menu .selected {
+	color: #fff;
+	cursor: default;
+	text-decoration: none;
+}
+.menu {
+	color: black;
+}
+.menu .hover{
+	width: 172px;
+	background: url('../img/nav.png') no-repeat;
+	left: -6px;
+	background-position: -232px 0;
+	padding: 18px 18px 18px 40px;
+	cursor: pointer;
+}
+.menu .hover {
+	color: #fff;
+	text-decoration: none;
+}
+.logo {
+	position: relative;
+	right: 10px;
+	width: 164px;
+	height: 164px;
+	top: -50px;
+	float: right;
+	background-repeat: no-repeat;
+	background-image: url('../img/sasac_logo.png');
+}
+.app-span3{
+	width: 190px;
+}
+.mailing-list-form {
+	position: relative;
+	left: 8px;
+	width: 190px;
+	top: 10px;
+}
+.mailing-list-form h3 {
+	text-align: center;
+}
+.form-button{
+	position: relative;
+	float:right;
+	right: -10px;
+}
+.edge{
+	background-image: url('../img/edge.png');
+	background-repeat: repeat-y;
+	height: 670px;
+	width: 3px;
+	position: relative;
+	float: left;
+	left: -3px;
+	top: 0;
+}
+.content {
+	position: relative;
+	float: right;
+	left: 2px;
+	width: 721px;
+	padding-left: 1px;
+	height: 670px;
+	background-color: #F8F8F8;
+	margin-top: 70px;
+	margin-right: 42px;
+	border-bottom-right-radius: 10px;
+}
+.page-content {
+	position: relative;
+	height: 100%;
+}
+.page-title {
+	position: relative;
+	left: 20px;
+	top: 20px;
+}
+.header {
+	float: right;
+	width: 718px;
+	height: 100px;
+}
+.content-body{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.image-wrap{
+	position: relative;
+	float:right;
+	right: 0;
+	width: 165px;
+	height: 55px;
+}
+.login-form{
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	width: 220px;
+	height: 300px;
+	margin-top: 10px;
+}
+#login {
+	position: relative;
+	margin-top: 10px;
+	left: -10px;
+}
+.instructor-gallery {
+	position: relative;
+	top: 50px;
+	height: 440px;
+	overflow: auto;
+	width: 700px;
+}
+.faqs {
+	position: relative;
+	top: 50px;
+	height: 440px;
+	overflow: auto;
+	width: 700px;
+}
+.question {
+	width: 660px;
+	height: 34px;
+	background-image: url(../img/faq-question.png);
+	cursor: pointer;
+	margin-bottom: 5px;
+}
+.question p {
+	color: white;
+	font-size: 15px ;
+	position: relative;
+	top: 10px;
+	padding-left: 30px;
+}
+.icon {
+	top: 10px;
+	width: 10px ;
+	position: relative;
+	left: 10px;
+	float: left;
+	background-repeat: no-repeat;
+}
+.answer {
+	display: none;
+	padding: 10px;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 10px 0;
+	font-family: inherit;
+	font-weight: bold;
+	line-height: 1;
+	color: inherit;
+	text-rendering: optimizelegibility;
+}
+h3 {
+	font-size: 24px;
+	line-height: 40px;
+}
+.thumbnail > img {
+	max-height: 238px;
+}
+.thumbnail h3, h4, h5 {
+	text-align: center;
+}
+.thumbnail{
+	text-align: justify;
+	height: 400px;
+}
+.calendar {
+	position: relative;
+	top: 20px;
+}
+a :hover {
+	cursor: pointer;
+}
+
+form {
+	width: 250px;
+	position: relative;
+	left: 20px;
+	top: 20px;
+}
+.label {
+	position: relative;
+	bottom: 10px;
+}
+.alert {
+	width: 300px;
+}
+
+/* basic scrollbar styling */
+/* vertical scrollbar */
+.mCSB_container{
+	width:auto;
+	margin-right:30px;
+	overflow:hidden;
+}
+.mCSB_container.mCS_no_scrollbar{
+	margin-right:0;
+}
+.mCustomScrollBox .mCSB_scrollTools{
+	width:16px;
+	height:100%;
+	top:0;
+	right:0;
+}
+.mCSB_scrollTools .mCSB_draggerContainer{
+	height:100%;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.mCSB_scrollTools .mCSB_buttonUp+.mCSB_draggerContainer{
+	padding-bottom:40px;
+}
+.mCSB_scrollTools .mCSB_draggerRail{
+	width:2px;
+	height:100%;
+	margin:0 auto;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+}
+.mCSB_scrollTools .mCSB_dragger{
+	cursor:pointer;
+	width:100%;
+	height:30px;
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+	width:4px;
+	height:100%;
+	margin:0 auto;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	text-align:center;
+}
+.mCSB_scrollTools .mCSB_buttonUp,
+.mCSB_scrollTools .mCSB_buttonDown{
+	height:20px;
+	overflow:hidden;
+	margin:0 auto;
+	cursor:pointer;
+}
+.mCSB_scrollTools .mCSB_buttonDown{
+	bottom:0;
+	margin-top:-40px;
+}
+/* horizontal scrollbar */
+.mCSB_horizontal .mCSB_container{
+	height:auto;
+	margin-right:0;
+	margin-bottom:30px;
+	overflow:hidden;
+}
+.mCSB_horizontal .mCSB_container.mCS_no_scrollbar{
+	margin-bottom:0;
+}
+.mCSB_horizontal.mCustomScrollBox .mCSB_scrollTools{
+	width:100%;
+	height:16px;
+	top:auto;
+	right:auto;
+	bottom:0;
+	left:0;
+	overflow:hidden;
+}
+.mCSB_horizontal .mCSB_scrollTools .mCSB_draggerContainer{
+	height:100%;
+	width:auto;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	overflow:hidden;
+}
+.mCSB_horizontal .mCSB_scrollTools .mCSB_buttonLeft+.mCSB_draggerContainer{
+	padding-bottom:0;
+	padding-right:20px;
+}
+.mCSB_horizontal .mCSB_scrollTools .mCSB_draggerRail{
+	width:100%;
+	height:2px;
+	margin:7px 0;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+}
+.mCSB_horizontal .mCSB_scrollTools .mCSB_dragger{
+	width:30px;
+	height:100%;
+}
+.mCSB_horizontal .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+	width:100%;
+	height:4px;
+	margin:6px auto;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+}
+.mCSB_horizontal .mCSB_scrollTools .mCSB_buttonLeft,
+.mCSB_horizontal .mCSB_scrollTools .mCSB_buttonRight{
+	width:20px;
+	height:100%;
+	overflow:hidden;
+	margin:0 auto;
+	cursor:pointer;
+	float:left;
+}
+.mCSB_horizontal .mCSB_scrollTools .mCSB_buttonRight{
+	right:0;
+	bottom:auto;
+	margin-left:-40px;
+	margin-top:-16px;
+	float:right;
+}
+
+/* default scrollbar colors and backgrounds */
+.mCustomScrollBox .mCSB_scrollTools{
+	opacity:0.75;
+}
+.mCustomScrollBox:hover .mCSB_scrollTools{
+	opacity:1;
+}
+.mCSB_scrollTools .mCSB_draggerRail{
+	background:#000; /* rgba fallback */
+	background:rgba(0,0,0,0.4);
+	filter:"alpha(opacity=40)"; -ms-filter:"alpha(opacity=40)"; /* old ie */
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+	background:#00bfff; /* rgba fallback */
+	background:rgba(0,191,255,0.75);
+	filter:"alpha(opacity=75)"; -ms-filter:"alpha(opacity=75)"; /* old ie */
+}
+.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{
+	background:rgba(0,191,255,0.85);
+	filter:"alpha(opacity=85)"; -ms-filter:"alpha(opacity=85)"; /* old ie */
+}
+.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar{
+	background:rgba(0,191,255,0.9);
+	filter:"alpha(opacity=90)"; -ms-filter:"alpha(opacity=90)"; /* old ie */
+}
+.mCSB_scrollTools .mCSB_buttonUp,
+.mCSB_scrollTools .mCSB_buttonDown,
+.mCSB_scrollTools .mCSB_buttonLeft,
+.mCSB_scrollTools .mCSB_buttonRight{
+	background-image:url("../img/mCSB_buttons.png");
+	background-repeat:no-repeat;
+	opacity:0.4;
+	filter:"alpha(opacity=40)"; -ms-filter:"alpha(opacity=40)"; /* old ie */
+}
+.mCSB_scrollTools .mCSB_buttonUp{
+	background-position:0 0;
+}
+.mCSB_scrollTools .mCSB_buttonDown{
+	background-position:0 -20px;
+}
+.mCSB_scrollTools .mCSB_buttonLeft{
+	background-position:0 -40px;
+}
+.mCSB_scrollTools .mCSB_buttonRight{
+	background-position:0 -56px;
+}
+.mCSB_scrollTools .mCSB_buttonUp:hover,
+.mCSB_scrollTools .mCSB_buttonDown:hover,
+.mCSB_scrollTools .mCSB_buttonLeft:hover,
+.mCSB_scrollTools .mCSB_buttonRight:hover{
+	opacity:0.75;
+	filter:"alpha(opacity=75)"; -ms-filter:"alpha(opacity=75)"; /* old ie */
+}
+.mCSB_scrollTools .mCSB_buttonUp:active,
+.mCSB_scrollTools .mCSB_buttonDown:active,
+.mCSB_scrollTools .mCSB_buttonLeft:active,
+.mCSB_scrollTools .mCSB_buttonRight:active{
+	opacity:0.9;
+	filter:"alpha(opacity=90)"; -ms-filter:"alpha(opacity=90)"; /* old ie */
+}

@@ -1,0 +1,9 @@
+.ie-bottom{
+	left: 40px;
+	width: 940px;
+	position: relative;
+	height: 14px;
+	top: 740px;
+	background-image: url('../img/ie-bottom.png');
+	background-repeat: no-repeat;
+}

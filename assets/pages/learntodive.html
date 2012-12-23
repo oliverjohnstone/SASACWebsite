@@ -1,0 +1,84 @@
+<div>
+	<p>As a branch of the British Sub Aqua Club (BSAC), we run courses for the various BSAC qualifications, starting with the entry-level Ocean Diver grade. Within a year of joining the club it's possible to become a competent diver at BSAC's Sports Diver grade. Free instruction is one of the many benefits of joining SASAC. For details about the Ocean Diver and Sports Diver courses click <a href="#" onclick="$('#course-diving').modal(); return false;">here</a>. For a video introduction to the club click here.</p>
+	<p>Why not come down to the club for a try dive before you decide if you want to join the Ocean Diver Course. Try dives take place on the first Wednesday of each month; after an introductory briefing at the clubhouse you'll be taken on a dive at Westminster Lodge Leisure Centre under the careful supervision of a club instructor. All equipment is provided and the try dive will cost &pound;10. For details call: 01727 859 829 or submit the contact request form below.</p>
+	<div class="alert alert-success" style='display:none'>
+		Thank you for your contact request, we will be in contact shortly.
+	</div>
+	<div class="alert alert-error" style='display:none;'>
+	  <h4>Warning!</h4>
+	  Sorry, an error occurred while submitting your form.
+	</div>
+	<form id='contactForm' action='assets/php/contactForm.php' method='post'>
+		<legend>Contact Request Form</legend>
+		<input type='text' placeholder='Forename' required='required' name='forename' class='error'></input>
+		<span class='label label-important' id='forename-error' style='display:none'>Please fill in your forename.</span>
+		<input type='text' placeholder='Surname' name='surname'></input>
+		<input type='email' placeholder='Email' name='email'></input>
+		<input type='tel' placeholder='Contact Number' required='required' name='phone'></input>
+		<span class='label label-important' id='forename-error' style='display:none'>Please fill in your forename.</span>
+		<button type='submit' class='btn' data-loading-text="Sending...">Submit</button>
+	</form>
+</div>
+<div class="modal hide fade" id="course-diving">
+	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		<h3>Scuba Diving Courses</h3>
+	</div>
+	<div class="modal-body">
+		<div class='course-block'>
+			<h4>Ocean Diver</h4>
+			<dl>
+				<dt>What</dt>
+				<dd>Entry level qualification</dd>
+				<dt>Where</dt>
+				<dd>SASAC clubhouse; <a href='http://www.everyoneactive.com/tabid/1756/Default.aspx' target='_blank'>Westmister Lodge Leisure Centre</a>; <a href='http://www.stoneycove.com/' target='_blank'>Stoney Cove dive centre</a></dd>
+				<dt>When</dt>
+				<dd>Eight Wednesday evenings and two Sundays. Can be completed within three months.</dd>
+				<dt>Description</dt>
+				<dd>Seven theory lessons at clubhouse followed by a written exam. Five of the theory lectures are also followed by pool lessons at Westminster Lodge Leisure Centre. Course also includes five open-water dives carried out over two days at the Stoney Cove dive centre in Leicestershire</dd>
+			</dl>
+		</div>
+		<div class='course-block'>
+			<h4>Sports Diver</h4>
+			<dl>
+				<dt>What</dt>
+				<dd>Qualifies you to dive with others of the same grade</dd>
+				<dt>Where</dt>
+				<dd>SASAC clubhouse; <a href='http://www.everyoneactive.com/tabid/1756/Default.aspx' target='_blank'>Westmister Lodge Leisure Centre</a>; <a href='http://www.stoneycove.com/' target='_blank'>Stoney Cove dive centre</a>; <a href='http://www.swanagepiertrust.com/' target='_blank'>Swanage, Dorset</a></dd>
+				<dt>When</dt>
+				<dd>Seven Wednesday evenings and two Sundays. Can be completed within six months</dd>
+				<dt>Description</dt>
+				<dd>Six theory lessons at clubhouse followed by a written exam. One of the theory lectures is followed by a pool lesson at Westminster Lodge Leisure Centre. Course also includes five open-water dives carried out over two days at Stoney Cove dive centre in Leicestershire and one day at Swanage in Dorset</dd>
+			</dl>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+	$('#contactForm').ajaxForm({ 
+		beforeSubmit: function() {
+			$('.alert').hide();
+			$('#contactform input').attr('disabled', 'disabled');
+			$('#contactform button').attr('disabled', 'disabled');
+			$('.label-important').hide();
+		},
+		success: function(responce) {
+			responce = JSON.parse(responce);
+			if (responce.errors) {
+				for(i = 0; i < responce.errors.length; i++) {
+					$('#' + responce.errors[i] + '-error').show();
+				}
+				$('#contactform input').removeAttr('disabled');
+				$('#contactform button').removeAttr('disabled');
+				return;
+			}
+			$('#contactForm').hide();
+			$('.alert-success').show();
+		},
+		error: function() {
+			$('.alert-error').show();
+			$('#contactform input').removeAttr('disabled');
+			$('#contactform button').removeAttr('disabled');
+		}
+	}); 
+</script>
