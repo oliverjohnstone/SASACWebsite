@@ -11,3 +11,10 @@
 	left: 430px; 
 	top: -363px;
 }
+.horizontal-menu li {
+	display: inline;
+}
+.horizontal-menu li a {
+	display: block;
+	width: 80px;
+}
