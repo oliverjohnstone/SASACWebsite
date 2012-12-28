@@ -19,7 +19,7 @@ require([
 			if(window.location.hash) {
 				$('#' + window.location.hash.substring(1) + "P").click();
 			} else {
-				Router.navigate('HomeP'); // Load the home page at first
+				Router.navigate('Home'); // Load the home page at first
 			}
 			$(window).hashchange(function() {
 				$('#' + window.location.hash.substring(1) + "P").click();

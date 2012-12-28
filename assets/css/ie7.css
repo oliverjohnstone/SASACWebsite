@@ -1,3 +1,13 @@
 .ie7-bottom{
 	top: 0;
 }
+.fb-like {
+	display: none;
+}
+.twitter-share-button {
+	display: none;
+}
+.learn-to-dive-img {
+	left: 430px; 
+	top: -363px;
+}

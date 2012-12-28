@@ -10,14 +10,6 @@
 		<!--[if !IE 6]>-->
 			<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 			<link rel="stylesheet" type="text/css" href="assets/css/application.css">
-		<!--<[endif]-->
-		<!--[if IE]>
-			<link rel="stylesheet" type="text/css" href="assets/css/ie.css">
-		<![endif]-->
-		<!--[if IE 7]>
-			<link rel="stylesheet" type="text/css" href="assets/css/ie7.css">
-		<![endif]-->
-		<!--[if !IE 6]>-->
 			<link rel="stylesheet" type="text/css" href="http://assets.cookieconsent.silktide.com/current/style.min.css"/>
 			<script type="text/javascript" src="http://assets.cookieconsent.silktide.com/current/plugin.min.js"></script>
 			<script type="text/javascript">
@@ -38,6 +30,15 @@
 				// ]]>
 			</script>
 			<script data-main="assets/js/main.js" src="assets/js/require-jquery.js"></script>
+		<!--<[endif]-->
+		<!--[if IE]>
+			<link rel="stylesheet" type="text/css" href="assets/css/ie.css">
+		<![endif]-->
+		<!--[if lte IE 8]>
+			<link rel="stylesheet" type="text/css" href="assets/css/ie8.css">
+		<![endif]-->
+		<!--[if lte IE 7]>
+			<link rel="stylesheet" type="text/css" href="assets/css/ie7.css">
 		<![endif]-->
 	</head>
 	<body>
@@ -50,9 +51,12 @@
 			js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=399722736762882";
 			fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));</script>
-		<!--[if lte IE 6]><script src="assets/ie6/warning.js"></script><script>
-			window.onload=function(){e("assets/ie6/")}
-		</script><![endif]-->
+		<!--[if lte IE 6]>
+			<script src="assets/ie6/warning.js"></script>
+			<script>
+				window.onload=function(){e("assets/ie6/")}
+			</script>
+		<![endif]-->
 		<div class="app" id="app">
 			<div class="fb-like" data-href="http://sasac.co.uk" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true"></div>
 			<a href="https://twitter.com/share" class="twitter-share-button" data-text="Check out St Albans Sub Aqua Club" data-via="StAlbansSAC" data-size="small">Tweet</a>

@@ -4,25 +4,25 @@ define(['jquery'],
 		var body = $('.page-content');
 		var title = $('.page-title h1');
 		return {
-			exceptions: {
-				"Forum": "http://sasac.co.uk/forum"
+			'exceptions': {
+				'Forum': 'http://sasac.co.uk/forum'
 			},
-			map: {
-				Home: [ 'home.html', 'Welcome to St Albans Sub Aqua Club' ],
-				// TryDive: [ 'trydive.html', 'Come down to SASAC for a Try Dive'],
-				LearnToDive: [ 'learntodive.html', 'Learn to dive with SASAC' ],
-				AlreadyADiver: [ 'alreadyadiver.html', 'Continue diving with SASAC' ],
-				Snorkelling: [ 'snorkelling.html', 'Learn to snorkel with SASAC' ],
-				UnderwaterHockey: [ 'underwaterhockey.html', 'Play underwater hockey with SASAC' ],
-				Social: [ 'social.html', 'SASAC has a social side' ],
-				TheInstructors: [ 'theinstructors.html', 'Meet the instructors' ],
-				Calendar: [ 'calendar.html', 'SASAC\'s calendar' ],
-				PhotoCompetition: [ 'photocompetition.html', 'SASAC\'s photo competition winners'  ],
-				Forum: [ 'forum.html', 'SASAC\'s Forum' ],
-				RestorationGrant: [ 'restoration.html', 'SASAC\'s Restoration grant' ],
-				Downloads: ['downloads.html', 'SASAC downloads'],
+			'map': {
+				'Home': [ 'home.html', 'Welcome to St Albans Sub Aqua Club' ],
+				// 'TryDive': [ 'trydive.html', 'Come down to SASAC for a Try Dive'],
+				'LearnToDive': [ 'learntodive.html', 'Learn to dive with SASAC' ],
+				'AlreadyADiver': [ 'alreadyadiver.html', 'Continue diving with SASAC' ],
+				'Snorkelling': [ 'snorkelling.html', 'Learn to snorkel with SASAC' ],
+				'UnderwaterHockey': [ 'underwaterhockey.html', 'Play underwater hockey with SASAC' ],
+				'Social': [ 'social.html', 'SASAC has a social side' ],
+				'TheInstructors': [ 'theinstructors.html', 'Meet the instructors' ],
+				'Calendar': [ 'calendar.html', 'SASAC\'s calendar' ],
+				'PhotoCompetition': [ 'photocompetition.html', 'SASAC\'s photo competition winners'  ],
+				'Forum': [ 'forum.html', 'SASAC\'s Forum' ],
+				'RestorationGrant': [ 'restoration.html', 'SASAC\'s Restoration grant' ],
+				'Downloads': ['downloads.html', 'SASAC downloads']
 			},
-			navigate: function(location) {
+			'navigate': function(location) {
 				if (typeof this.exceptions[location] !== 'undefined') {
 					window.open(this.exceptions[location], "_blank");
 					return false;

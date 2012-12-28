@@ -1,9 +1,15 @@
-.ie-bottom{
-	left: 40px;
-	width: 940px;
-	position: relative;
-	height: 14px;
-	top: 740px;
-	background-image: url('../img/ie-bottom.png');
-	background-repeat: no-repeat;
+.logo {
+	top: -10px;
+}
+
+.image-wrap{
+	height: 45px;
+}
+
+.horizontal-menu {
+	top: 0;
+}
+
+.page-title {
+	top: 40px;
 }

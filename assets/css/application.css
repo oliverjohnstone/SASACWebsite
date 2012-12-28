@@ -299,11 +299,11 @@ li{
 	text-decoration: none;
 }
 .logo {
-	position: relative;
+	position: absolute;
 	right: 10px;
 	width: 164px;
 	height: 164px;
-	top: -50px;
+	top: -30px;
 	float: right;
 	background-repeat: no-repeat;
 	background-image: url('../img/sasac_logo.png');
@@ -335,6 +335,19 @@ li{
 	left: -3px;
 	top: 0;
 }
+.learn-to-dive-img {
+	width: 190px;
+	height: 146px; 
+	position:relative; 
+	left: 20px; 
+	top: -109px
+}
+.photo-competition-img {
+	width: 410px;
+	height: 363px;
+	position:relative;
+	top: 0;
+}
 .content {
 	position: relative;
 	float: right;
@@ -353,7 +366,7 @@ li{
 }
 .page-title {
 	position: relative;
-	left: 20px;
+	left: 5px;
 	top: 20px;
 }
 .header {
@@ -370,7 +383,7 @@ li{
 	float:right;
 	right: 0;
 	width: 165px;
-	height: 55px;
+	height: 25px;
 }
 .login-form{
 	margin-right: auto;
