@@ -417,27 +417,6 @@ li{
 	overflow: auto;
 	width: 700px;
 }
-.faqs {
-	position: relative;
-	top: 50px;
-	height: 440px;
-	overflow: auto;
-	width: 700px;
-}
-.question {
-	width: 660px;
-	height: 34px;
-	background-image: url(../img/faq-question.png);
-	cursor: pointer;
-	margin-bottom: 5px;
-}
-.question p {
-	color: white;
-	font-size: 15px ;
-	position: relative;
-	top: 10px;
-	padding-left: 30px;
-}
 .icon {
 	top: 10px;
 	width: 10px ;
@@ -445,10 +424,6 @@ li{
 	left: 10px;
 	float: left;
 	background-repeat: no-repeat;
-}
-.answer {
-	display: none;
-	padding: 10px;
 }
 .modal-body p{
 	text-align: justify;
