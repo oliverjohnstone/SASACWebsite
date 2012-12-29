@@ -106,30 +106,30 @@ ul li.li_dir {
 	top: 70px;
 }
 a.fb-button {
-    color: #FFF;
-    display: inline-block;
-    text-decoration: none;
+	color: #FFF;
+	display: inline-block;
+	text-decoration: none;
 }
 .fb-button {
-    background: #5F78AB;
-    background-image: url('../img/fb-login.png');  /*COPY TO YOUR OWN IMAGE STORE*/
-    background-repeat: no-repeat;
-    background-position: -1px -81px;
-    border-top: 1px solid #29447E;
-    border-right: 1px solid #29447E;
-    border-bottom: 1px solid #1A356E;
-    border-left: 1px solid #29447E;
-    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #8A9CC2;
-    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #8a9cc2;
-    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #8A9CC2;
-    cursor: pointer;
-    font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
-    font-size: 13px;
-    font-weight: bold;
-    height: 23px;
-    line-height: 23px;
-    padding: 0px 5px 0px 30px;
-    text-align: left;
+	background: #5F78AB;
+	background-image: url('../img/fb-login.png');  /*COPY TO YOUR OWN IMAGE STORE*/
+	background-repeat: no-repeat;
+	background-position: -1px -81px;
+	border-top: 1px solid #29447E;
+	border-right: 1px solid #29447E;
+	border-bottom: 1px solid #1A356E;
+	border-left: 1px solid #29447E;
+	-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #8A9CC2;
+	-moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #8a9cc2;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #8A9CC2;
+	cursor: pointer;
+	font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	height: 23px;
+	line-height: 23px;
+	padding: 0px 5px 0px 30px;
+	text-align: left;
 }
 .img-box-image {
 	max-width: 550px;
@@ -185,14 +185,14 @@ li{
 }
 .image-gallery-roll {
 	background:url('../img/info.png') center center no-repeat #000;
-    height: 140px;
-    position: absolute;
-    width: 140px;
-    z-index: 10;   
-    -webkit-box-shadow: 0px 0px 4px #000;
-    -moz-box-shadow: 0px 0px 4px  #000;
-    box-shadow: 0px 0px 4px  #000;
-    -webkit-border-radius: 6px;
+	height: 140px;
+	position: absolute;
+	width: 140px;
+	z-index: 10;   
+	-webkit-box-shadow: 0px 0px 4px #000;
+	-moz-box-shadow: 0px 0px 4px  #000;
+	box-shadow: 0px 0px 4px  #000;
+	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
 }
@@ -228,10 +228,16 @@ li{
 	z-index: 10;
 }
 .fb-like {
-	position: absolute;
-	left: 135px;
+	position: relative;
+	left: 140px;
 	top: 35px;
 	z-index: 1;
+}
+/* Firefox only styles */
+@-moz-document url-prefix() {
+	.fb-like{
+		left: -100px;
+	}
 }
 .app {
 	position: relative;
@@ -256,6 +262,12 @@ li{
 	margin-right: 11px;
 	height: 660px;
 	border-bottom-left-radius: 10px;
+}
+/* Firefox only styles */
+@-moz-document url-prefix() {
+	.menu {
+		height: 680px;
+	}
 }
 .menu ul {
 	list-style-type: none;
