@@ -73,7 +73,7 @@
 <div class="modal hide fade" id="instructor-info">
 	<div class="modal-header">
 		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-		<h3></h3>
+		<h3 id='instructor-name'></h3>
 	</div>
 	<div class="modal-body">
 		<img src="" class='img-rounded img-modal'>
@@ -104,9 +104,9 @@ $(function() {
 	});
 
 	$('.image-gallery-roll').click(function(e) {
-		$instructor = $(e.srcElement);
-		$image = $(e.srcElement.nextElementSibling);
-		$('.modal-header h3').html($instructor.attr('instructorName'));
+		$instructor = $(e.target);
+		$image = $(e.target.nextElementSibling);
+		$('#instructor-name').html($instructor.attr('instructorName'));
 		$('.img-modal').attr('src', $image.attr('src'));
 		$('#instructor-blurb').html($instructor.attr('instructorInfo'));
 		$('#instructor-info').modal();
