@@ -18,12 +18,6 @@ function onClick(e) {
 	$(window).css('cursor', 'progress');
 	$('.hover').removeClass('hover');
 	window.location = $(e.target).attr('path');
-	// var result = Router.navigate(e.target.id.substring(0, e.target.id.length - 1));
-	// if (result) {
-	// 	$('.selected').removeClass('selected');
-	// 	$(e.target).addClass('selected');
-	// }
-	// $(window).css('cursor', '');
 	return false;
 }
 
