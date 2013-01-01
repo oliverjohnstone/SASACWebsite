@@ -1,2 +1,0 @@
-php_value auto_prepend_file "assets/base/header.php"
-php_value auto_append_file "assets/base/footer.php"

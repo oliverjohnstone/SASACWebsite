@@ -1,0 +1,102 @@
+{
+	"JSRoot": "assets/js/",
+	"PageRoot": "assets/pages/",
+	"description": "St Albans Sub Aqua Club is a long established Scuba Diving club in the very heart of St Albans. We have a club house with a licenced bar which is open every Wednesday and Friday evening which can also be hired out to the public.",
+	"requiredJS": [
+		"jquery/jquery-1.7.2.min.js",
+		"main.js",
+		"plugins/jquery-form.js",
+		"plugins/bootstrap-modal.js",
+		"jquery/jquery-ui-1.8.21.custom.min.js",
+		"plugins/bootstrap-carousel.js"
+	],
+	"keywords": [
+		"Scuba Diving",
+		"BSAC",
+		"SASAC",
+		"St Albans",
+		"Diving",
+		"Snorkelling",
+		"Underwater",
+		"hockey",
+		"Restoration"
+	],
+	"exceptions": {
+		"Forum": "http://sasac.co.uk/forum"
+	},
+	"pages": {
+		"home": {
+			"name": "Home",
+			"path": "home.html",
+			"title": "Welcome to St Albans Sub Aqua Club"
+		},
+		"learnToDive": {
+			"name": "Learn To Dive",
+			"path": "learntodive.html",
+			"title": "Learn to dive with SASAC"
+		},
+		"alreadyADiver": {
+			"name": "Already A Diver",
+			"path": "alreadyadiver.html",
+			"title": "Continue diving with SASAC"
+		},
+		"snorkelling": {
+			"name": "Snorkelling",
+			"path": "snorkelling.html",
+			"title": "Learn to snorkel with SASAC"
+		},
+		"underwaterHockey": {
+			"name": "Underwater Hockey",
+			"path": "underwaterhockey.html",
+			"title": "Play underwater hockey with SASAC"
+		},
+		"social": {
+			"name": "Social",
+			"path": "social.html",
+			"title": "SASAC has a social side"
+		},
+		"theInstructors": {
+			"name": "The Instructors",
+			"path": "theinstructors.html",
+			"title": "Meet the instructors"
+		},
+		"calendar": {
+			"name": "Calendar",
+			"path": "calendar.html",
+			"title": "SASAC's calendar"
+		},
+		"photoCompetition": {
+			"name": "Photo Competition",
+			"path": "photocompetition.html",
+			"title": "SASAC's photo competition winners'"
+		},
+		"restorationGrant": {
+			"name": "Restoration Grant",
+			"path": "restorationgrant.html",
+			"title": "SASAC's restoration grant"
+		},
+		"downloads": {
+			"name": "Downloads",
+			"path": "downloads.html",
+			"title": "SASAC downloads"
+		},
+		"pageNotFound": {
+			"name": "Page Not Found",
+			"path": "pagenotfound.html",
+			"title": "Page Not Found"
+		}
+	},
+	"paths": {
+		"home": "home",
+		"learn-to-dive": "learnToDive",
+		"already-a-diver": "alreadyADiver",
+		"snorkelling": "snorkelling",
+		"underwater-hockey": "underwaterHockey",
+		"social": "social",
+		"the-instructors": "theInstructors",
+		"calendar": "calendar",
+		"photo-competition": "photoCompetition",
+		"restoration-grant": "restorationGrant",
+		"downloads": "downloads"
+	}
+}

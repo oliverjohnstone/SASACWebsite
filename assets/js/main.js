@@ -1,53 +1,31 @@
-var currentPage = null;
-var controller = '/indexController.php';
+$(function() {
+	$('.menu .menuitem').hover(onHover, onLeave);
+	$('.menu .menuitem').click(onClick);
+});
 
-//function hashchange  is assumed to exist. This function will fire on hashchange
-if (!('onhashchange' in window)) {
-	var oldHref = location.href;
-	setInterval(function() {
-		var newHref = location.href;
-		if (oldHref !== newHref) {
-			oldHref = newHref;
-			hashChange.call(window, {
-				'type': 'hashchange',
-				'newURL': newHref,
-				'oldURL': oldHref
-			});
-		}
-	}, 100);
-} else if (window.addEventListener) {
-	window.addEventListener("hashchange", hashChange, false);
-}
-else if (window.attachEvent) {
-	window.attachEvent("onhashchange", hashChange);
+function onHover(e) {
+	if (!$(e.target).hasClass('selected')) {
+		$('.hover').removeClass('hover');
+		$(e.target).addClass('hover');
+	}
 }
 
-function hashChange() {
-	$('#' + window.location.hash.substring(1) + "P").click();
+function onLeave(e) {
+	$('.hover').removeClass('hover');
 }
 
-require([
-		'jquery', 
-		'Menu', 
-		'Router',
-		'plugins/jquery-form',
-		'plugins/bootstrap-modal',
-		'jquery/jquery-ui-1.8.21.custom.min',
-		'plugins/bootstrap-carousel'
-	],
-	function($, Menu, Router, jqueryForm, hashChange, bootstrap, jqueryUi, carousel) {
-		$(function() {
-			// Register menu handlers
-			$('.menu .menuitem').hover(Menu.onHover, Menu.onLeave);
-			$('.menu .menuitem').click(Menu.onClick);
-			// $('input[placeholder]').placeholder();
-			if(window.location.hash) {
-				$('#' + window.location.hash.substring(1) + "P").click();
-			} else {
-				Router.navigate('Home'); // Load the home page at first
-			}
-		});
-	});
+function onClick(e) {
+	$(window).css('cursor', 'progress');
+	$('.hover').removeClass('hover');
+	window.location = $(e.target).attr('path');
+	// var result = Router.navigate(e.target.id.substring(0, e.target.id.length - 1));
+	// if (result) {
+	// 	$('.selected').removeClass('selected');
+	// 	$(e.target).addClass('selected');
+	// }
+	// $(window).css('cursor', '');
+	return false;
+}
 
 function logged_in() {
 	var sessionCookie = getCookie('PHPSESSID');
