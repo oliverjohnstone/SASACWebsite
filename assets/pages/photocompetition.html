@@ -115,6 +115,7 @@ $(function() {
 	});
 
 	$('.roll-noimage').click(function(e) {
+		console.log(e);
 		$image = $(e.target.nextElementSibling);
 		var msg = $image.attr('alt');
 		if (msg) {
