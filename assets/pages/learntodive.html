@@ -5,18 +5,36 @@
 		Thank you for your contact request, we will be in contact shortly.
 	</div>
 	<div class="alert alert-error" style='display:none;'>
-	  <h4>Warning!</h4>
-	  Sorry, an error occurred while submitting your form.
+		<h4>Warning!</h4>
+		Sorry, an error occurred while submitting your form.
 	</div>
 	<form id='contactForm' action='assets/php/contactForm.php' method='post'>
 		<legend>Contact Request Form</legend>
-		<input type='text' placeholder='Forename' required='required' name='forename' class='error'></input>
-		<span class='label label-important' id='forename-error' style='display:none'>Please fill in your forename.</span>
-		<input type='text' placeholder='Surname' name='surname'></input>
-		<input type='email' placeholder='Email' name='email'></input>
-		<input type='tel' placeholder='Contact Number' required='required' name='phone'></input>
-		<span class='label label-important' id='forename-error' style='display:none'>Please fill in your forename.</span>
-		<button type='submit' class='btn' data-loading-text="Sending...">Submit</button>
+		<table>
+			<tr>
+				<td>Forename</td>
+				<td><input type='text' placeholder='Joe' required='required' name='forename' class='error'></input></td>
+				<td></td>
+				<span class='label label-important' id='forename-error' style='display:none'>Please fill in your forename.</span>
+			</tr>
+			<tr>
+				<td>Surname</td>
+				<td><input type='text' placeholder='Smith' name='surname'></input></td>
+			</tr>
+			<tr>
+				<td>Email Address</td>
+				<td><input type='email' placeholder='joe@example.com' name='email'></input></td>
+			</tr>
+			<tr>
+				<td>Contact Number</td>
+				<td><input type='tel' placeholder='01727 123 456' required='required' name='phone'></input></td>
+				<td><span class='label label-important' id='forename-error' style='display:none'>Please fill in your forename.</span></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><button type='submit' class='btn' data-loading-text="Sending...">Submit</button></td>
+			</tr>
+		</table>
 	</form>
 </div>
 <div class="modal hide fade" id="course-diving">
@@ -80,5 +98,5 @@
 			$('#contactform input').removeAttr('disabled');
 			$('#contactform button').removeAttr('disabled');
 		}
-	}); 
+	});
 </script>

@@ -32,9 +32,10 @@ require([
 		'Router',
 		'plugins/jquery-form',
 		'plugins/bootstrap-modal',
-		'jquery/jquery-ui-1.8.21.custom.min'
+		'jquery/jquery-ui-1.8.21.custom.min',
+		'plugins/bootstrap-carousel'
 	],
-	function($, Menu, Router, jqueryForm, hashChange, bootstrap, jqueryUi) {
+	function($, Menu, Router, jqueryForm, hashChange, bootstrap, jqueryUi, carousel) {
 		$(function() {
 			// Register menu handlers
 			$('.menu .menuitem').hover(Menu.onHover, Menu.onLeave);

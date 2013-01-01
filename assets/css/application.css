@@ -464,9 +464,11 @@ h3 {
 a :hover {
 	cursor: pointer;
 }
-
+td {
+	padding-right: 5px;
+}
 form {
-	width: 250px;
+	width: 350px;
 	position: relative;
 	left: 20px;
 	top: 20px;
