@@ -13,30 +13,11 @@ require_once "bootstrap.php";
 			<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 			<link rel="stylesheet" type="text/css" href="assets/css/application.css">
 			<link rel="stylesheet" type="text/css" href="assets/css/cookieconsent.min.css"/>
-			<script type="text/javascript" src="assets/js/plugins/cookieconsent.min.js"></script>
 			<script type="text/javascript" src="assets/js/jquery/jquery-1.9.0.min.js"></script>
+			<script type="text/javascript" src="assets/js/plugins/bootstrap.min.js"></script>
 			<script type="text/javascript" src="assets/js/jquery/jquery-ui-1.8.21.custom.min.js"></script>
 			<script type="text/javascript" src="assets/js/main.js"></script>
 			<script type="text/javascript" src="assets/js/plugins/jquery-form.js"></script>
-			<script type="text/javascript" src="assets/js/plugins/bootstrap-carousel.js"></script>
-			<script type="text/javascript" src="assets/js/plugins/bootstrap-modal.js"></script>
-			<script type="text/javascript">
-				// <![CDATA[
-				cc.initialise({
-					cookies: {
-						social: {},
-						analytics: {},
-						necessary: {}
-					},
-					settings: {
-						consenttype: "implicit",
-						hideprivacysettingstab: true,
-						onlyshowbanneronce: false,
-						disableallsites: true
-					}
-				});
-				// ]]>
-			</script>
 		<!--<[endif]-->
 		<!--[if IE]>
 			<link rel="stylesheet" type="text/css" href="assets/css/ie.css">
@@ -55,7 +36,7 @@ require_once "bootstrap.php";
 			<div class="social">
 		<div id="fb-root"></div>
 		<div id="fb-root"></div>
-		<script type="text/plain" class="cc-onconsent-social">(function(d, s, id) {
+		<script type="text/javascript">(function(d, s, id) {
 			var js, fjs = d.getElementsByTagName(s)[0];
 			if (d.getElementById(id)) return;
 			js = d.createElement(s); js.id = id;
@@ -73,7 +54,7 @@ require_once "bootstrap.php";
 				<div class="fb-like" data-href="http://sasac.co.uk" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true"></div>
 				<a href="https://twitter.com/share" class="twitter-share-button" data-text="Check out St Albans Sub Aqua Club" data-via="StAlbansSAC" data-size="small">Tweet</a>
 			</div>
-			<script type="text/plain" class="cc-onconsent-social">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 			<div class="menu">
 				<ul>
 <?php
@@ -120,8 +101,9 @@ foreach ($settings->exceptions as $key => $value) {
 			<div class="ie-bottom ie7-bottom"></div>
 			<![endif]-->
 		</div>
-		<div class="footer">&copy; Copyright <?php echo date("Y"); ?> St Albans Sub Aqua Club</div>
-		<div class="modal hide fade" id="contact-us">
+		<div class="footer">&copy; Copyright <?php echo date("Y"); ?> St Albans Sub Aqua Club</br>
+			We use cookies on this site - <a href="http://en.wikipedia.org/wiki/HTTP_cookie" target="_blank">What is a cookie?</a></div>
+		<div class="modal hide fade" id="contact-us" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 			<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 					<h3>Contact Us</h3>
@@ -139,12 +121,12 @@ foreach ($settings->exceptions as $key => $value) {
 				</address>
 				<a target="_blank" href="http://maps.google.co.uk/maps?q=St+Albans+Sub+Aqua+Club,+Cottonmill+Lane,+St.+Albans&amp;hl=en&amp;ll=51.745927,-0.335984&amp;spn=0.002883,0.007907&amp;sll=52.8382,-2.327815&amp;sspn=11.533929,32.387695&amp;oq=st+albans+sub+&amp;hq=St+Albans+Sub+Aqua+Club,&amp;hnear=Cottonmill+Ln,+St+Albans,+United+Kingdom&amp;t=h&amp;z=18">View Map</a>
 				<p>If you want to contact us about training, membership, technical issues please use the above number or use the 
-					<a href='/Try-Dive'>contact us</a> form to send an email.The club is run by volunteers but we will always attempt 
+					<a href='/Learn-To-Dive'>contact us</a> form to send an email.The club is run by volunteers but we will always attempt 
 					to respond in a reasonable time.
 				</p>
 			</div>
 		</div>
-		<div class="modal hide fade" id="site-map">
+		<div class="modal hide fade" id="site-map" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 			<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 					<h3>Site Map</h3>
@@ -170,7 +152,7 @@ foreach ($settings->exceptions as $key => $value) {
 				</ul>
 			</div>
 		</div>
-		<div class="modal hide fade" id="tools">
+		<div class="modal hide fade" id="tools" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 			<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 					<h3>Tools</h3>

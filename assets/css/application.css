@@ -9,6 +9,13 @@ body {
 	position: relative;
 	height: 11px;
 }
+.my-modal {
+	position: absolute;
+	z-index: 100;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
 .footer {
 	position: relative;
 	margin-left: auto;
@@ -17,6 +24,7 @@ body {
 	width: 328px;
 	top: 30px;
 	padding-bottom: 10px;
+	text-align: center;
 }
 .horizontal-menu {
 	float: left;
