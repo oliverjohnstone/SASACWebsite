@@ -1,15 +1,6 @@
 {
-	"JSRoot": "assets/js/",
 	"PageRoot": "assets/pages/",
 	"description": "St Albans Sub Aqua Club is a long established Scuba Diving club in the very heart of St Albans. We have a club house with a licenced bar which is open every Wednesday and Friday evening which can also be hired out to the public.",
-	"requiredJS": [
-		"jquery/jquery-1.7.2.min.js",
-		"main.js",
-		"plugins/jquery-form.js",
-		"plugins/bootstrap-modal.js",
-		"jquery/jquery-ui-1.8.21.custom.min.js",
-		"plugins/bootstrap-carousel.js"
-	],
 	"keywords": [
 		"Scuba Diving",
 		"BSAC",
@@ -72,7 +63,7 @@
 		},
 		"restorationGrant": {
 			"name": "Restoration Grant",
-			"path": "restorationgrant.html",
+			"path": "restoration.html",
 			"title": "SASAC's restoration grant"
 		},
 		"downloads": {
@@ -87,16 +78,16 @@
 		}
 	},
 	"paths": {
-		"home": "home",
-		"learn-to-dive": "learnToDive",
-		"already-a-diver": "alreadyADiver",
-		"snorkelling": "snorkelling",
-		"underwater-hockey": "underwaterHockey",
-		"social": "social",
-		"the-instructors": "theInstructors",
-		"calendar": "calendar",
-		"photo-competition": "photoCompetition",
-		"restoration-grant": "restorationGrant",
-		"downloads": "downloads"
+		"Home": "home",
+		"Learn-To-Dive": "learnToDive",
+		"Already-A-Diver": "alreadyADiver",
+		"Snorkelling": "snorkelling",
+		"Underwater-Hockey": "underwaterHockey",
+		"Social": "social",
+		"The-Instructors": "theInstructors",
+		"Calendar": "calendar",
+		"Photo-Competition": "photoCompetition",
+		"Restoration-Grant": "restorationGrant",
+		"Downloads": "downloads"
 	}
 }

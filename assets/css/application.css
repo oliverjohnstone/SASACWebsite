@@ -5,12 +5,16 @@ body {
 	font-size: 15px;
 	line-height: 18px;
 }
+.social {
+	position: relative;
+	height: 11px;
+}
 .footer {
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
 	color: white;
-	width: 300px;
+	width: 328px;
 	top: 30px;
 	padding-bottom: 10px;
 }
