@@ -1,5 +1,6 @@
 <?php
 	$to = "oliver@ojs.co";
+	$from = "hello@sasac.co.uk";
 	$responce = array(
 		"errors" => array()
 	);
@@ -19,11 +20,13 @@
 	}
 
 	$message = "Contact Request From: \n\nName: $forename $surname\nEmail: $email\nPhone: $phone";
-	$responcemsg = "Hi $forename $surname,\n\nThanks for contacting St Albans Sub Aqua Club. We will respond shortly.\n\nCheers,\nSt Albans Sub Aqua Club.";
+	$responcemsg = "Hi $forename,\n\nThanks for contacting St Albans Sub Aqua Club. We will respond shortly.\n\nKind Regards,\nSt Albans Sub Aqua Club.";
 
-	mail($to, 'SASAC Contact Request', $message);
+	$headers = "From: no-reply@sasac.co.uk\n";
+	mail($to, 'SASAC Contact Request', $message, $headers);
 	if (strlen($email) > 0) {
-		mail($email, "St Albans Sub Aqua Club", $responcemsg);
+		$headers = "From: $from\n";
+		mail($email, "St Albans Sub Aqua Club", $responcemsg, $headers);
 	}
 
 	die(json_encode($responce));

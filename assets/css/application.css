@@ -9,13 +9,6 @@ body {
 	position: relative;
 	height: 11px;
 }
-.my-modal {
-	position: absolute;
-	z-index: 100;
-	width: 100px;
-	height: 100px;
-	background-color: red;
-}
 .footer {
 	position: relative;
 	margin-left: auto;
