@@ -8,8 +8,8 @@
 	if (!isset($_POST['forename'])) $responce["errors"][] = 'forename'; 
 	if (!isset($_POST['phone'])) $responce["errors"][] = 'phone'; 
 
-	$forename = $_POST['forename'];
-	$surname = $_POST['surname'] ? $_POST['surname']: "";
+	$forename = ucfirst($_POST['forename']);
+	$surname = ucfirst($_POST['surname']) ? ucfirst($_POST['surname']): "";
 	$email = $_POST['email'] ? $_POST['email']: "";
 	$phone = $_POST['phone'];
 
