@@ -6,6 +6,7 @@ $title = $settings->pages->pageNotFound->title;
 $name = $settings->pages->pageNotFound->name;
 if (isset($_GET["page"])) {
 	$tmp = $_GET["page"];
+	$tmp = ucfirst($tmp);
 	if (isset($settings->paths->$tmp)) {
 		$path = $settings->PageRoot . $settings->pages->{$settings->paths->$tmp}->path;
 		if (is_readable($path)) {
