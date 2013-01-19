@@ -170,12 +170,7 @@ li{
 	top: 35px;
 	z-index: 1;
 }
-/* Firefox only styles */
-@-moz-document url-prefix() {
-	.fb-like{
-		left: -100px;
-	}
-}
+
 .app {
 	position: relative;
 	width: 1020px;
@@ -199,12 +194,6 @@ li{
 	margin-right: 11px;
 	height: 660px;
 	border-bottom-left-radius: 10px;
-}
-/* Firefox only styles */
-@-moz-document url-prefix() {
-	.menu {
-		height: 680px;
-	}
 }
 .menu ul {
 	list-style-type: none;
