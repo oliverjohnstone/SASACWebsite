@@ -49,22 +49,6 @@ body {
 	background-image: url('../img/home.png');
 	background-repeat: no-repeat;
 }
-.forum-login-form {
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	top: 150px;
-	left: -20px;
-}
-.forum_menu_list {
-	list-style-type:none;
-	margin:0;
-	padding:0;
-}
-.forum_menu_list li {
-	float:left;
-}
 .downloads_list {
 	list-style-type: none;
 	padding: 0;
@@ -83,58 +67,6 @@ ul li.li_file {
 }
 ul li.li_dir {
 	list-style-image: url('../img/folder.png');
-}
-.forum_menu_list a {
-	display: block;
-	width: 80px;
-	color: white;
-	background-color: #a9c651;
-	padding: 4px;
-	font-weight: bold;
-	text-align: center;
-	text-decoration: none;
-}
-.forum_menu_list li a.selected {
-	background-color: #79b6c0;
-}
-.forum_menu_list a:hover {
-	background-color: #79b6c0;
-}
-.forum {
-	position: relative;
-	top: -20px;
-	left: 10px;
-}
-.forum_body {
-	position: absolute;
-	clear: right;
-	top: 70px;
-}
-a.fb-button {
-	color: #FFF;
-	display: inline-block;
-	text-decoration: none;
-}
-.fb-button {
-	background: #5F78AB;
-	background-image: url('../img/fb-login.png');  /*COPY TO YOUR OWN IMAGE STORE*/
-	background-repeat: no-repeat;
-	background-position: -1px -81px;
-	border-top: 1px solid #29447E;
-	border-right: 1px solid #29447E;
-	border-bottom: 1px solid #1A356E;
-	border-left: 1px solid #29447E;
-	-webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #8A9CC2;
-	-moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #8a9cc2;
-	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #8A9CC2;
-	cursor: pointer;
-	font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
-	font-size: 13px;
-	font-weight: bold;
-	height: 23px;
-	line-height: 23px;
-	padding: 0px 5px 0px 30px;
-	text-align: left;
 }
 .img-box-image {
 	max-width: 550px;
@@ -323,24 +255,10 @@ li{
 	top: -30px;
 	float: right;
 	background-repeat: no-repeat;
-	background-image: url('../img/sasac_logo.png');
+	background-image: url('../media/general/sasac_logo.png');
 }
 .app-span3{
 	width: 190px;
-}
-.mailing-list-form {
-	position: relative;
-	left: 8px;
-	width: 190px;
-	top: 10px;
-}
-.mailing-list-form h3 {
-	text-align: center;
-}
-.form-button{
-	position: relative;
-	float:right;
-	right: -10px;
 }
 .edge{
 	background-image: url('../img/edge.png');
@@ -401,19 +319,6 @@ li{
 	right: 0;
 	width: 165px;
 	height: 25px;
-}
-.login-form{
-	margin-right: auto;
-	margin-left: auto;
-	position: relative;
-	width: 220px;
-	height: 300px;
-	margin-top: 10px;
-}
-#login {
-	position: relative;
-	margin-top: 10px;
-	left: -10px;
 }
 .instructor-gallery {
 	position: relative;
@@ -484,192 +389,4 @@ form {
 }
 .alert {
 	width: 300px;
-}
-
-/* basic scrollbar styling */
-/* vertical scrollbar */
-.mCSB_container{
-	width:auto;
-	margin-right:30px;
-	overflow:hidden;
-}
-.mCSB_container.mCS_no_scrollbar{
-	margin-right:0;
-}
-.mCustomScrollBox .mCSB_scrollTools{
-	width:16px;
-	height:100%;
-	top:0;
-	right:0;
-}
-.mCSB_scrollTools .mCSB_draggerContainer{
-	height:100%;
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	box-sizing:border-box;
-}
-.mCSB_scrollTools .mCSB_buttonUp+.mCSB_draggerContainer{
-	padding-bottom:40px;
-}
-.mCSB_scrollTools .mCSB_draggerRail{
-	width:2px;
-	height:100%;
-	margin:0 auto;
-	-webkit-border-radius:10px;
-	-moz-border-radius:10px;
-	border-radius:10px;
-}
-.mCSB_scrollTools .mCSB_dragger{
-	cursor:pointer;
-	width:100%;
-	height:30px;
-}
-.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
-	width:4px;
-	height:100%;
-	margin:0 auto;
-	-webkit-border-radius:10px;
-	-moz-border-radius:10px;
-	border-radius:10px;
-	text-align:center;
-}
-.mCSB_scrollTools .mCSB_buttonUp,
-.mCSB_scrollTools .mCSB_buttonDown{
-	height:20px;
-	overflow:hidden;
-	margin:0 auto;
-	cursor:pointer;
-}
-.mCSB_scrollTools .mCSB_buttonDown{
-	bottom:0;
-	margin-top:-40px;
-}
-/* horizontal scrollbar */
-.mCSB_horizontal .mCSB_container{
-	height:auto;
-	margin-right:0;
-	margin-bottom:30px;
-	overflow:hidden;
-}
-.mCSB_horizontal .mCSB_container.mCS_no_scrollbar{
-	margin-bottom:0;
-}
-.mCSB_horizontal.mCustomScrollBox .mCSB_scrollTools{
-	width:100%;
-	height:16px;
-	top:auto;
-	right:auto;
-	bottom:0;
-	left:0;
-	overflow:hidden;
-}
-.mCSB_horizontal .mCSB_scrollTools .mCSB_draggerContainer{
-	height:100%;
-	width:auto;
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	box-sizing:border-box;
-	overflow:hidden;
-}
-.mCSB_horizontal .mCSB_scrollTools .mCSB_buttonLeft+.mCSB_draggerContainer{
-	padding-bottom:0;
-	padding-right:20px;
-}
-.mCSB_horizontal .mCSB_scrollTools .mCSB_draggerRail{
-	width:100%;
-	height:2px;
-	margin:7px 0;
-	-webkit-border-radius:10px;
-	-moz-border-radius:10px;
-	border-radius:10px;
-}
-.mCSB_horizontal .mCSB_scrollTools .mCSB_dragger{
-	width:30px;
-	height:100%;
-}
-.mCSB_horizontal .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
-	width:100%;
-	height:4px;
-	margin:6px auto;
-	-webkit-border-radius:10px;
-	-moz-border-radius:10px;
-	border-radius:10px;
-}
-.mCSB_horizontal .mCSB_scrollTools .mCSB_buttonLeft,
-.mCSB_horizontal .mCSB_scrollTools .mCSB_buttonRight{
-	width:20px;
-	height:100%;
-	overflow:hidden;
-	margin:0 auto;
-	cursor:pointer;
-	float:left;
-}
-.mCSB_horizontal .mCSB_scrollTools .mCSB_buttonRight{
-	right:0;
-	bottom:auto;
-	margin-left:-40px;
-	margin-top:-16px;
-	float:right;
-}
-
-/* default scrollbar colors and backgrounds */
-.mCustomScrollBox .mCSB_scrollTools{
-	opacity:0.75;
-}
-.mCustomScrollBox:hover .mCSB_scrollTools{
-	opacity:1;
-}
-.mCSB_scrollTools .mCSB_draggerRail{
-	background:#000; /* rgba fallback */
-	background:rgba(0,0,0,0.4);
-	filter:"alpha(opacity=40)"; -ms-filter:"alpha(opacity=40)"; /* old ie */
-}
-.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
-	background:#00bfff; /* rgba fallback */
-	background:rgba(0,191,255,0.75);
-	filter:"alpha(opacity=75)"; -ms-filter:"alpha(opacity=75)"; /* old ie */
-}
-.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{
-	background:rgba(0,191,255,0.85);
-	filter:"alpha(opacity=85)"; -ms-filter:"alpha(opacity=85)"; /* old ie */
-}
-.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
-.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar{
-	background:rgba(0,191,255,0.9);
-	filter:"alpha(opacity=90)"; -ms-filter:"alpha(opacity=90)"; /* old ie */
-}
-.mCSB_scrollTools .mCSB_buttonUp,
-.mCSB_scrollTools .mCSB_buttonDown,
-.mCSB_scrollTools .mCSB_buttonLeft,
-.mCSB_scrollTools .mCSB_buttonRight{
-	background-image:url("../img/mCSB_buttons.png");
-	background-repeat:no-repeat;
-	opacity:0.4;
-	filter:"alpha(opacity=40)"; -ms-filter:"alpha(opacity=40)"; /* old ie */
-}
-.mCSB_scrollTools .mCSB_buttonUp{
-	background-position:0 0;
-}
-.mCSB_scrollTools .mCSB_buttonDown{
-	background-position:0 -20px;
-}
-.mCSB_scrollTools .mCSB_buttonLeft{
-	background-position:0 -40px;
-}
-.mCSB_scrollTools .mCSB_buttonRight{
-	background-position:0 -56px;
-}
-.mCSB_scrollTools .mCSB_buttonUp:hover,
-.mCSB_scrollTools .mCSB_buttonDown:hover,
-.mCSB_scrollTools .mCSB_buttonLeft:hover,
-.mCSB_scrollTools .mCSB_buttonRight:hover{
-	opacity:0.75;
-	filter:"alpha(opacity=75)"; -ms-filter:"alpha(opacity=75)"; /* old ie */
-}
-.mCSB_scrollTools .mCSB_buttonUp:active,
-.mCSB_scrollTools .mCSB_buttonDown:active,
-.mCSB_scrollTools .mCSB_buttonLeft:active,
-.mCSB_scrollTools .mCSB_buttonRight:active{
-	opacity:0.9;
-	filter:"alpha(opacity=90)"; -ms-filter:"alpha(opacity=90)"; /* old ie */
 }
