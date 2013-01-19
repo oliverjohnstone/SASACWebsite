@@ -1,5 +1,13 @@
 <?php
 require_once "bootstrap.php";
+require_once "assets/php/lib/mobileDetect.php";
+$mobileDetect = new MobileDetect();
+// Most tablets can handle the full page site but not mobiles
+if ($mobileDetect->isMobile() && !$mobileDetect->isTablet()) {
+	// Send the mobile version of the site
+	require_once "mobile.php";
+	exit;
+}
 ?>
 <!doctype html>
 <html>
@@ -8,6 +16,7 @@ require_once "bootstrap.php";
 		<meta name="keywords" content="<?php echo implode(",", $settings->keywords); ?>" />
 		<meta name="description" content="<?php echo $settings->description; ?>" />
 		<meta name="author" content="Oliver Johnstone">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 		<!--[if !IE 6]>-->
 			<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
@@ -101,7 +110,7 @@ foreach ($settings->exceptions as $key => $value) {
 			<div class="ie-bottom ie7-bottom"></div>
 			<![endif]-->
 		</div>
-		<div class="footer">&copy; Copyright <?php echo date("Y"); ?> St Albans Sub Aqua Club</br>
+		<div class="footer">&copy; Copyright <?php echo date("Y"); ?> St Albans Sub Aqua Club<br>
 			We use cookies on this site - <a href="http://en.wikipedia.org/wiki/HTTP_cookie" target="_blank">What is a cookie?</a></div>
 		<div class="modal hide fade" id="contact-us" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 			<div class="modal-header">
