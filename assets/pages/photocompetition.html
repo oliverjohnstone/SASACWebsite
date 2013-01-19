@@ -93,37 +93,5 @@
 </div>
 
 <script type="text/javascript">
-$(function() {
-	// OPACITY OF BUTTON SET TO 0%
-	$(".roll-noimage").css("opacity","0");
-	 
-	// ON MOUSE OVER
-	$(".roll-noimage").hover(function () {
-	 
-		// SET OPACITY TO 70%
-		$(this).stop().animate({
-		opacity: .7
-		}, "slow");
-	},
-	 
-	// ON MOUSE OUT
-	function () {
-		// SET OPACITY BACK TO 50%
-		$(this).stop().animate({
-		opacity: 0
-		}, "slow");
-	});
-
-	$('.roll-noimage').click(function(e) {
-		console.log(e);
-		$image = $(e.target.nextElementSibling);
-		var msg = $image.attr('alt');
-		if (msg) {
-			$('#image-title').html(msg);
-			$('.img-box-image').attr('src', $image.attr('src'));
-			$('#image-box').modal();
-		}
-		return false;
-	});
-});
+$(function(){$(".roll-noimage").css("opacity","0");$(".roll-noimage").hover(function(){$(this).stop().animate({opacity:.7},"slow")},function(){$(this).stop().animate({opacity:0},"slow")});$(".roll-noimage").click(function(e){$image=$(e.target.nextElementSibling);var t=$image.attr("alt");if(t){$("#image-title").html(t);$(".img-box-image").attr("src",$image.attr("src"));$("#image-box").modal()}return false})})
 </script>

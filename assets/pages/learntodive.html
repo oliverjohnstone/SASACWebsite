@@ -73,30 +73,5 @@
 </div>
 
 <script type="text/javascript">
-	$('#contactForm').ajaxForm({ 
-		beforeSubmit: function() {
-			$('.alert').hide();
-			$('#contactform input').attr('disabled', 'disabled');
-			$('#contactform button').attr('disabled', 'disabled');
-			$('.label-important').hide();
-		},
-		success: function(responce) {
-			responce = JSON.parse(responce);
-			if (responce.errors) {
-				for(i = 0; i < responce.errors.length; i++) {
-					$('#' + responce.errors[i] + '-error').show();
-				}
-				$('#contactform input').removeAttr('disabled');
-				$('#contactform button').removeAttr('disabled');
-				return;
-			}
-			$('#contactForm').hide();
-			$('.alert-success').show();
-		},
-		error: function() {
-			$('.alert-error').show();
-			$('#contactform input').removeAttr('disabled');
-			$('#contactform button').removeAttr('disabled');
-		}
-	});
+$("#contactForm").ajaxForm({beforeSubmit:function(){$(".alert").hide();$("#contactform input").attr("disabled","disabled");$("#contactform button").attr("disabled","disabled");$(".label-important").hide()},success:function(e){e=JSON.parse(e);if(e.errors){for(i=0;i<e.errors.length;i++){$("#"+e.errors[i]+"-error").show()}$("#contactform input").removeAttr("disabled");$("#contactform button").removeAttr("disabled");return}$("#contactForm").hide();$(".alert-success").show()},error:function(){$(".alert-error").show();$("#contactform input").removeAttr("disabled");$("#contactform button").removeAttr("disabled")}})
 </script>

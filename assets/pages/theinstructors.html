@@ -82,35 +82,5 @@
 </div>
 
 <script type="text/javascript">
-$(function() {
-	// OPACITY OF BUTTON SET TO 0%
-	$(".image-gallery-roll").css("opacity","0");
-	 
-	// ON MOUSE OVER
-	$(".image-gallery-roll").hover(function () {
-	 
-		// SET OPACITY TO 70%
-		$(this).stop().animate({
-		opacity: .7
-		}, "slow");
-	},
-	 
-	// ON MOUSE OUT
-	function () {
-		// SET OPACITY BACK TO 50%
-		$(this).stop().animate({
-		opacity: 0
-		}, "slow");
-	});
-
-	$('.image-gallery-roll').click(function(e) {
-		$instructor = $(e.target);
-		$image = $(e.target.nextElementSibling);
-		$('#instructor-name').html($instructor.attr('instructorName'));
-		$('.img-modal').attr('src', $image.attr('src'));
-		$('#instructor-blurb').html($instructor.attr('instructorInfo'));
-		$('#instructor-info').modal();
-		return false;
-	});
-});
+$(function(){$(".image-gallery-roll").css("opacity","0");$(".image-gallery-roll").hover(function(){$(this).stop().animate({opacity:.7},"slow")},function(){$(this).stop().animate({opacity:0},"slow")});$(".image-gallery-roll").click(function(e){$instructor=$(e.target);$image=$(e.target.nextElementSibling);$("#instructor-name").html($instructor.attr("instructorName"));$(".img-modal").attr("src",$image.attr("src"));$("#instructor-blurb").html($instructor.attr("instructorInfo"));$("#instructor-info").modal();return false})})
 </script>
