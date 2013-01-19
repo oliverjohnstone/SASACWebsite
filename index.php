@@ -21,7 +21,6 @@ if ($mobileDetect->isMobile() && !$mobileDetect->isTablet()) {
 		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 		<!--[if !IE 6]>-->
 			<link rel="stylesheet" type="text/css" href="assets/css/desktop-1.0.0.css">
-			<script type="text/javascript" src="assets/js/desktop-1.0.0.js"></script>
 		<!--<[endif]-->
 		<!--[if IE]>
 			<link rel="stylesheet" type="text/css" href="assets/css/ie.css">
@@ -176,4 +175,5 @@ foreach ($settings->exceptions as $key => $value) {
 		</div>
 	</div><!-- IE Container -->
 	</body>
+	<script type="text/javascript" src="assets/js/desktop-1.0.0.js"></script>
 </html>
