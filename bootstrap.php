@@ -1,7 +1,7 @@
 <?php
 $str = file_get_contents("properties.json");
 $settings = json_decode($str);
-$reqPage = $settings->pages->pageNotFound->path;
+$reqPage = $settings->PageRoot . $settings->pages->pageNotFound->path;
 $title = $settings->pages->pageNotFound->title;
 $name = $settings->pages->pageNotFound->name;
 if (isset($_GET["page"])) {
