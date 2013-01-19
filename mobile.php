@@ -9,7 +9,6 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 		<link rel="stylesheet" type="text/css" href="assets/css/mobile-1.0.0.css">
-		<script type="text/javascript" src="assets/js/mobile-1.0.0.js"></script>
 	</head>
 	<body>
 		<div class="mobile-app">
@@ -193,32 +192,8 @@
 			<div class="footer">&copy; Copyright <?php echo date("Y"); ?> SASAC</div>
 		</div>
 	</body>
+	<script type="text/javascript" src="assets/js/mobile-1.0.0.js"></script>
 	<script type="text/javascript">
-	$('#contactForm').ajaxForm({ 
-		beforeSubmit: function() {
-			$('.alert').hide();
-			$('#contactform input').attr('disabled', 'disabled');
-			$('#contactform button').attr('disabled', 'disabled');
-			$('.label-important').hide();
-		},
-		success: function(responce) {
-			responce = JSON.parse(responce);
-			if (responce.errors) {
-				for(i = 0; i < responce.errors.length; i++) {
-					$('#' + responce.errors[i] + '-error').show();
-				}
-				$('#contactform input').removeAttr('disabled');
-				$('#contactform button').removeAttr('disabled');
-				return;
-			}
-			$('#contactForm').hide();
-			$('.alert-success').show();
-		},
-		error: function() {
-			$('.alert-error').show();
-			$('#contactform input').removeAttr('disabled');
-			$('#contactform button').removeAttr('disabled');
-		}
-	});
-</script>
+		$("#contactForm").ajaxForm({beforeSubmit:function(){$(".alert").hide();$("#contactform input").attr("disabled","disabled");$("#contactform button").attr("disabled","disabled");$(".label-important").hide()},success:function(e){e=JSON.parse(e);if(e.errors){for(i=0;i<e.errors.length;i++){$("#"+e.errors[i]+"-error").show()}$("#contactform input").removeAttr("disabled");$("#contactform button").removeAttr("disabled");return}$("#contactForm").hide();$(".alert-success").show()},error:function(){$(".alert-error").show();$("#contactform input").removeAttr("disabled");$("#contactform button").removeAttr("disabled")}})
+	</script>
 </html>
