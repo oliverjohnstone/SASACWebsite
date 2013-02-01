@@ -1,12 +1,7 @@
 <?php
+set_include_path(getcwd());
 error_reporting(E_ALL);
-require_once "auth.php";
-require_once "application.php";
-$auth = new Authenticate();
-$application = Application::getApplication();
-if (isset($_POST["Authenticate"])) {
-  $auth->authenticate($_POST);
-}
+require_once "logic.php";
 
 ?>
 <!DOCTYPE html>
@@ -52,9 +47,32 @@ if (isset($_POST["Authenticate"])) {
           <a class="brand" href="#">St Albans Sub Aqua Club</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
+              <li><a href="/admin/">Home</a></li>
+<?php
+if (isAuthenticated()) {
+?>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  Content
+                  <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="content-home">Home</a></li>
+                  <li><a href="content-technical">Technical Diving</a></li>
+                  <li><a href="content-training">Training</a></li>
+                  <li><a href="content-instructors">Instructors</a></li>
+                  <li><a href="content-calendar">Calendar</a></li>
+                  <li><a href="content-restoration">Restoration Grant</a></li>
+                  <li><a href="content-social">Social</a></li>
+                  <li><a href="content-links">Links</a></li>
+                </ul>
+              </li>
+
               <li><a href="#contact">Contact</a></li>
+<?php
+}
+?>
+              <li><a href="reset-password"><?php echo isAuthenticated() ? "Change Password" : "Reset Password" ?></a></li>
             </ul>
           </div>
         </div>
@@ -63,50 +81,12 @@ if (isset($_POST["Authenticate"])) {
 
     <div class="container">
 <?php
-if (!$auth->isAuthenticated()) {
-  if ($application->hasErrors()) {
-  var_dump($_SESSION); exit;
-    foreach ($application->getErrors() as $error) {
+      include getIncludeFile();
 ?>
-      <span class="label label-important"><?php echo $error; ?></span>
-<?php
-    }
-  }
-?>
-      <form action="" method="post" class="form-horizontal">
-        <div class="control-group">
-          <label class="control-label" for="inputEmail">Email</label>
-          <div class="controls">
-            <input type="text" id="Email" placeholder="Email">
-          </div>
-        </div>
-        <div class="control-group">
-          <label class="control-label" for="inputPassword">Password</label>
-          <div class="controls">
-            <input type="password" id="Password" placeholder="Password">
-          </div>
-        </div>
-        <div class="control-group">
-          <div class="controls">
-            <label class="checkbox">
-              <input type="checkbox"> Remember me
-            </label>
-            <button type="submit" class="btn">Sign in</button>
-          </div>
-        </div>
-        <input type="hidden" name="Authenticate" value="1" />
-      </form>
-<?php
-} else {
-?>      
-      <h1>SASAC CMS</h1>
-      <p>Use this CMS to manage website content, contact users and view important information<br>regarding site statistics and page faults.</p>
-<?php
-}
-?>
-
     </div>
-    <script src="../assets/js/jquery/jquery-1.9.0.min.js"></script>
+    <script src="assets/js/jquery-1.9.0.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/nicEdit.js"></script>
+    <script type="text/javascript">bkLib.onDomLoaded(nicEditors.allTextAreas);</script>
   </body>
 </html>
