@@ -42,7 +42,7 @@ if ($mobileDetect->isMobile() && !$mobileDetect->isTablet()) {
 		<![endif]-->
 	</head>
 	<body>
-		<div class="fb-link"></div>
+		<div class="fb-link"><a href="http://www.facebook.com/StAlbansSubAquaClub" target="_blank"></a></div>
 		<div class="social">
 		<div id="fb-root"></div>
 		<div id="fb-root"></div>
