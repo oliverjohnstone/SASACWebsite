@@ -286,6 +286,17 @@ li{
 	border-bottom-left-radius: 10px;
 	padding-bottom: 10px;
 }
+.fb-link {
+	position: fixed;
+	right: 0;
+	top: 70px;
+	height: 200px;
+	width: 50px;
+	background-image: url('../img/facebook-right.png');
+	background-repeat: no-repeat;
+	z-index: 0;
+	display: none;
+}
 .page-content {
 	position: relative;
 	height: 100%;

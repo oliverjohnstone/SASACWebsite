@@ -42,7 +42,8 @@ if ($mobileDetect->isMobile() && !$mobileDetect->isTablet()) {
 		<![endif]-->
 	</head>
 	<body>
-			<div class="social">
+		<div class="fb-link"></div>
+		<div class="social">
 		<div id="fb-root"></div>
 		<div id="fb-root"></div>
 		<script type="text/javascript">(function(d, s, id) {
@@ -181,4 +182,16 @@ foreach ($settings->exceptions as $key => $value) {
 		</div>
 	</div><!-- IE Container -->
 	</body>
+	<script type="text/javascript">
+		if ($(window).width() >= 1070) {
+			$('.fb-link').show()
+		}
+		$(window).resize(function(){
+			if ($(window).width() < 1070) {
+				$('.fb-link').hide()
+			} else {
+				$('.fb-link').show()
+			}
+		})
+	</script>
 </html>
