@@ -307,10 +307,15 @@ li{
 	position: relative;
 	height: 100%;
 }
+.carousel {
+	margin-bottom: 0;
+}
 .page-title {
 	position: relative;
+	width: 534px;
 	left: 5px;
-	top: 20px;
+	top: 40px;
+	text-align: center;
 }
 .header {
 	float: right;
