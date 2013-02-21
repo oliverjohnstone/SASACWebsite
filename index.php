@@ -22,7 +22,6 @@ if ($mobileDetect->isMobile() && !$mobileDetect->isTablet()) {
 		<!--[if !IE 6]>-->
 			<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 			<link rel="stylesheet" type="text/css" href="assets/css/application.css">
-			<link rel="stylesheet" type="text/css" href="assets/css/cookieconsent.min.css"/>
 			<script type="text/javascript" src="assets/js/jquery/jquery-1.9.0.min.js"></script>
 			<script type="text/javascript" src="assets/js/plugins/bootstrap.min.js"></script>
 			<script type="text/javascript" src="assets/js/jquery/jquery-ui-1.8.21.custom.min.js"></script>
