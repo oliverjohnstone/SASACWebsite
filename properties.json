@@ -10,7 +10,9 @@
 		"Snorkelling",
 		"Underwater",
 		"hockey",
-		"Restoration"
+		"Restoration",
+		"Technical",
+		"Rebreather"
 	],
 	"exceptions": {
 		"Forum": "http://sasac.co.uk/forum"
@@ -18,69 +20,69 @@
 	"pages": {
 		"home": {
 			"name": "Home",
-			"path": "home.html",
+			"path": "home.php",
 			"title": "Welcome to St Albans Sub Aqua Club"
 		},
 		"learnToDive": {
 			"name": "Learn To Dive",
-			"path": "learntodive.html",
+			"path": "learntodive.php",
 			"title": "Learn to dive with SASAC"
 		},
-		"alreadyADiver": {
-			"name": "Already A Diver",
-			"path": "alreadyadiver.html",
-			"title": "Continue diving with SASAC"
+		"technicalDiving": {
+			"name": "Technical Diving",
+			"path": "technicalDiving.php",
+			"title": "Technical Diving"
 		},
 		"snorkelling": {
 			"name": "Snorkelling",
-			"path": "snorkelling.html",
+			"path": "snorkelling.php",
 			"title": "Learn to snorkel with SASAC"
 		},
 		"underwaterHockey": {
 			"name": "Underwater Hockey",
-			"path": "underwaterhockey.html",
+			"path": "underwaterhockey.php",
 			"title": "Play underwater hockey with SASAC"
 		},
 		"social": {
 			"name": "Social",
-			"path": "social.html",
+			"path": "social.php",
 			"title": "SASAC has a social side"
 		},
 		"theInstructors": {
 			"name": "The Instructors",
-			"path": "theinstructors.html",
+			"path": "theinstructors.php",
 			"title": "Meet the instructors"
 		},
 		"calendar": {
 			"name": "Calendar",
-			"path": "calendar.html",
+			"path": "calendar.php",
 			"title": "SASAC's calendar"
 		},
 		"photoCompetition": {
 			"name": "Photo Competition",
-			"path": "photocompetition.html",
+			"path": "photocompetition.php",
 			"title": "SASAC's photo competition winners"
 		},
 		"restorationGrant": {
 			"name": "Restoration Grant",
-			"path": "restoration.html",
+			"path": "restoration.php",
 			"title": "SASAC's restoration grant"
 		},
 		"downloads": {
 			"name": "Downloads",
-			"path": "downloads.html",
+			"path": "downloads.php",
 			"title": "SASAC downloads"
 		},
 		"pageNotFound": {
 			"name": "Page Not Found",
-			"path": "pagenotfound.html",
+			"path": "pagenotfound.php",
 			"title": "Page Not Found"
 		}
 	},
 	"paths": {
 		"Home": "home",
 		"Learn-To-Dive": "learnToDive",
-		"Already-A-Diver": "alreadyADiver",
+		"Technical-Diving": "technicalDiving",
 		"Snorkelling": "snorkelling",
 		"Underwater-Hockey": "underwaterHockey",
 		"Social": "social",

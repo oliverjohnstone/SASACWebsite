@@ -1,8 +1,8 @@
 <div>
-	<p>These are the photo competition winners for 2011/2012, watch out for the 2012/13 winners coming soon.</p>
+	<p>Every year our club runs a photo competition for our own club members as well as others outside the club. 2012/13 has been a particularly good year as you can see from the wining photos below.</p>
 	
 <!-- TROPICAL -->
-	<h3>Tropical Entries</h3>
+	<h4 class='entry-section'>Tropical Entries</h4>
 	<div class='image-gallery-row'>
 		<div class='image-gallery-column'>
 			<a class='image-gallery-image' href='#'>
@@ -28,7 +28,7 @@
 			<p>James Flitt</p>
 		</div>
 
-		<div class='image-gallery-column'>
+		<div class='image-gallery-column last-column'>
 			<p class='photo-category'>Weird &amp; Wonderful</p>
 		</div>
 	</div>
@@ -58,7 +58,7 @@
 			<p>Suzy Jarmen</p>
 		</div>
 		
-		<div class='image-gallery-column'>
+		<div class='image-gallery-column last-column'>
 			<p class='photo-category'>Size Matters</p>
 		</div>
 	</div>
@@ -88,14 +88,14 @@
 			<p>Tanya Warren</p>
 		</div>
 		
-		<div class='image-gallery-column'>
+		<div class='image-gallery-column last-column'>
 			<p class='photo-category'>Perfect Moment</p>
 		</div>
 	</div>
 
 <!-- SOCIAL -->
 
-	<h3>Social Entries</h3>
+	<h4 class='entry-section'>Social Entries</h4>
 	<div class='image-gallery-row'>
 		<div class='image-gallery-column'>
 			<a class='image-gallery-image' href='#'>
@@ -121,7 +121,7 @@
 			<p>Lisa Shafe</p>
 		</div>
 
-		<div class='image-gallery-column'>
+		<div class='image-gallery-column last-column'>
 			<p class='photo-category'>Weird &amp; Wonderful</p>
 		</div>
 	</div>
@@ -151,7 +151,7 @@
 			<p>Lisa Shafe</p>
 		</div>
 		
-		<div class='image-gallery-column'>
+		<div class='image-gallery-column last-column'>
 			<p class='photo-category'>Size Matters</p>
 		</div>
 	</div>
@@ -181,14 +181,14 @@
 			<p>Lisa Shafe</p>
 		</div>
 		
-		<div class='image-gallery-column'>
+		<div class='image-gallery-column last-column'>
 			<p class='photo-category'>Perfect Moment</p>
 		</div>
 	</div>
 
 <!-- BRITISH -->
 
-	<h3>British Water Entries</h3>
+	<h4 class='entry-section'>British Water Entries</h4>
 
 	<div class='image-gallery-row'>
 		<div class='image-gallery-column'>
@@ -215,7 +215,7 @@
 			<p>David Jarmen</p>
 		</div>
 		
-		<div class='image-gallery-column'>
+		<div class='image-gallery-column last-column'>
 			<p class='photo-category'>Weird &amp; Wonderful</p>
 		</div>
 	</div>
@@ -245,7 +245,7 @@
 			<p>Phil Mason</p>
 		</div>
 
-		<div class='image-gallery-column'>
+		<div class='image-gallery-column last-column'>
 			<p class='photo-category'>Perfect Moment</p>
 		</div>
 	</div>
@@ -253,10 +253,10 @@
 </div>
 
 <div class="modal hide fade" id="image-box">
-	<div class="modal-header">
+<!-- 	<div class="modal-header">
 		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 		<h3 id="image-title"></h3>
-	</div>
+	</div> -->
 	<div class="modal-body">
 		<img src="" class='img-box-image'>
 	</div>
@@ -264,34 +264,42 @@
 
 <script type="text/javascript">
 $(function() {
-	// OPACITY OF BUTTON SET TO 0%
+	$('.modal-body').css('max-height', $(window).height())
+
 	$(".roll-noimage").css("opacity","0");
 	 
-	// ON MOUSE OVER
 	$(".roll-noimage").hover(function () {
-	 
-		// SET OPACITY TO 70%
 		$(this).stop().animate({
 		opacity: .7
 		}, "slow");
 	},
-	 
-	// ON MOUSE OUT
+
 	function () {
-		// SET OPACITY BACK TO 50%
 		$(this).stop().animate({
 		opacity: 0
 		}, "slow");
 	});
 
 	$('.roll-noimage').click(function(e) {
-		console.log(e);
 		$image = $(e.target.nextElementSibling);
 		var msg = $image.attr('alt');
 		if (msg) {
 			$('#image-title').html(msg);
-			$('.img-box-image').attr('src', $image.attr('src'));
-			$('#image-box').modal();
+			var src = $image.attr('src')
+			src = src.replace('_thumbnail', '');
+			$('.img-box-image').attr('src', src).load(function() {
+				me = this
+				$('#image-box').modal().css({ 
+					width: 'auto', 
+					'margin-left': function () {
+							return -(me.width / 2)
+						},
+					'margin-top': function () {
+						return -(me.height / 2)
+					}
+				})
+
+			})
 		}
 		return false;
 	});

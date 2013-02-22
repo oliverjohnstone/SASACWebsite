@@ -103,7 +103,9 @@ foreach ($settings->exceptions as $key => $value) {
 					<div class="logo"></div>
 				</div>
 				<div class="content-body">
-					<div class="page-content"><?php echo file_get_contents($reqPage); ?></div>
+					<div class="page-content">
+						<?php include $reqPage; ?>
+					</div>
 				</div>
 			</div>
 			<!--[if IE]>

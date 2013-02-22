@@ -5,9 +5,60 @@ body {
 	font-size: 15px;
 	line-height: 18px;
 }
+.subscribe-link {
+	position: relative;
+	float: right;
+	bottom: 0px;
+	padding-right: 5px;
+}
+.announcements {
+	border-radius: 5px;
+	background-color: #D8D8D8;
+	height: 180px;
+}
+.announcements .items {
+	height: 122px;
+}
+.announcements .title {
+	margin-right: 90px
+}
+.pagination {
+	border-radius: 5px;
+	height: 20px;
+	position: relative;
+	left: 5px;
+	top: 5px;
+}
+.pagination-item {
+	display: block;
+	float: left;
+	background-image: url('../img/pagination-item.png');
+	width: 20px;
+	height: 20px;
+}
+.pagination .active {
+	background-image: url('../img/pagination-item-active.png');
+}
+.announce-item {
+	display: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+	height: 150px;
+	top: 10px;
+}
+.items .active {
+	display: block;
+}
 .social {
 	position: relative;
 	height: 11px;
+}
+.entry-section {
+	padding-top: 15px;
+	padding-left: 4px;
+	text-align: left;
 }
 .footer {
 	position: relative;
@@ -68,10 +119,6 @@ ul li.li_file {
 ul li.li_dir {
 	list-style-image: url('../img/folder.png');
 }
-.img-box-image {
-	max-width: 550px;
-	max-height: 400px;
-}
 .img-modal {
 	float: left;
 	position: relative;
@@ -86,16 +133,14 @@ ul li.li_dir {
 	height: 160px;
 	text-align: center;
 	font-size: 15px;
-	top: 20px;
 }
 li{
 	line-height: 18px;
 }
 .photo-category {
 	text-align: left;
-	font-size: 30px;
+	font-size: 28px;
 	vertical-align: middle;
-	left: 20px;
 	top: 65px;
 	position: relative;
 }
@@ -146,6 +191,9 @@ li{
 	margin-right: 5px;
 	margin-bottom: 5px;
 	clear: right;
+}
+.last-column {
+	width: 240px;
 }
 .course-block{
 	display: block;
