@@ -23,20 +23,20 @@
 			"path": "home.php",
 			"title": "Welcome to St Albans Sub Aqua Club"
 		},
-		"learnToDive": {
-			"name": "Learn To Dive",
-			"path": "learntodive.php",
-			"title": "Learn to dive with SASAC"
+		"tryDive": {
+			"name": "Try Dive",
+			"path": "tryDive.php",
+			"title": "Try Dive"
 		},
 		"technicalDiving": {
 			"name": "Technical Diving",
 			"path": "technicalDiving.php",
 			"title": "Technical Diving"
 		},
-		"snorkelling": {
-			"name": "Snorkelling",
-			"path": "snorkelling.php",
-			"title": "Learn to snorkel with SASAC"
+		"training": {
+			"name": "Training",
+			"path": "training.php",
+			"title": "Learn to Dive With SASAC"
 		},
 		"underwaterHockey": {
 			"name": "Underwater Hockey",
@@ -81,9 +81,9 @@
 	},
 	"paths": {
 		"Home": "home",
-		"Learn-To-Dive": "learnToDive",
+		"Try-Dive": "tryDive",
+		"Training": "training",
 		"Technical-Diving": "technicalDiving",
-		"Snorkelling": "snorkelling",
 		"Underwater-Hockey": "underwaterHockey",
 		"Social": "social",
 		"The-Instructors": "theInstructors",

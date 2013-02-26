@@ -5,6 +5,9 @@ body {
 	font-size: 15px;
 	line-height: 18px;
 }
+.bold {
+	font-weight: bold;
+}
 .subscribe-link {
 	position: relative;
 	float: right;
