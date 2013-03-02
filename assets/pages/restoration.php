@@ -1,5 +1,5 @@
 <div>
-	<p>St Albans Sub Aqua club has won a sports England grant to restore the pool to its former glory. We are all really excited about the grant and hope that it will bring a brand new lease of life to the club. A number of club members have already started on the renovations, we have completely redecorated the club house and laid new flooring and we have also decorated the traditional changing cubicles outside. Watch this space for up to date progress on the restoration. For the report on our grant please visit the <a href="http://www.bsac.com/news.asp?section=56&amp;sectionTitle=News&amp;month=&amp;year=&amp;itemid=12518" target="_blank">BSAC website</a>.</p>
+	<p>St Albans Sub Aqua club has won a sports England grant to restore the pool to its former glory. We are all really excited about the grant and hope that it will bring a brand new lease of life to the club. A number of club members have already started on the renovations, we have completely redecorated the clubhouse and laid new flooring and we have also decorated the traditional changing cubicles outside. Watch this space for up to date progress on the restoration. For the report on our grant please visit the <a href="http://www.bsac.com/news.asp?section=56&amp;sectionTitle=News&amp;month=&amp;year=&amp;itemid=12518" target="_blank">BSAC website</a>.</p>
 </div>
 <div id="restorationCarousel" class="carousel slide">
 	<div class="carousel-inner">
@@ -54,8 +54,8 @@
 		<div class="item">
 			<img src="assets/media/restoration/more_new_paint.jpg" alt="">
 			<div class="carousel-caption">
-				<h4>Painting the Club House</h4>
-				<p>Now for decorating the inside of the club house and a glimpse of the old carpet before we tare it up.</p>
+				<h4>Painting the Clubhouse</h4>
+				<p>Now for decorating the inside of the clubhouse and a glimpse of the old carpet before we tare it up.</p>
 			</div>
 		</div>
 

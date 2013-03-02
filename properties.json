@@ -1,6 +1,6 @@
 {
 	"PageRoot": "assets/pages/",
-	"description": "St Albans Sub Aqua Club is a long established Scuba Diving club in the very heart of St Albans. We have a club house with a licenced bar which is open every Wednesday and Friday evening which can also be hired out to the public.",
+	"description": "St Albans Sub Aqua Club is a long established Scuba Diving club in the very heart of St Albans. We have a clubhouse with a licenced bar which is open every Wednesday and Friday evening which can also be hired out to the public.",
 	"keywords": [
 		"Scuba Diving",
 		"BSAC",
@@ -12,71 +12,106 @@
 		"hockey",
 		"Restoration",
 		"Technical",
-		"Rebreather"
+		"Rebreather",
+		"Booster Pump"
 	],
-	"exceptions": {
-		"Forum": "http://sasac.co.uk/forum"
-	},
+	"exceptions": {},
 	"pages": {
 		"home": {
 			"name": "Home",
 			"path": "home.php",
-			"title": "Welcome to St Albans Sub Aqua Club"
+			"title": "Welcome to St Albans Sub Aqua Club",
+			"verticalMenuItem": true
 		},
 		"tryDive": {
 			"name": "Try Dive",
 			"path": "tryDive.php",
-			"title": "Try Dive"
-		},
-		"technicalDiving": {
-			"name": "Technical Diving",
-			"path": "technicalDiving.php",
-			"title": "Technical Diving"
+			"title": "Try Dive",
+			"verticalMenuItem": true
 		},
 		"training": {
 			"name": "Training",
 			"path": "training.php",
-			"title": "Learn to Dive With SASAC"
+			"title": "Learn To Dive With SASAC",
+			"verticalMenuItem": true
+		},
+		"technicalDiving": {
+			"name": "Technical Diving",
+			"path": "technicalDiving.php",
+			"title": "Technical Diving",
+			"verticalMenuItem": true
+		},
+		"facilities": {
+			"name": "Facilities",
+			"path": "facilities.php",
+			"title": "What We Have To Offer",
+			"verticalMenuItem": true
 		},
 		"underwaterHockey": {
 			"name": "Underwater Hockey",
 			"path": "underwaterhockey.php",
-			"title": "Play underwater hockey with SASAC"
+			"title": "Play underwater hockey with SASAC",
+			"verticalMenuItem": true
 		},
 		"social": {
 			"name": "Social",
 			"path": "social.php",
-			"title": "SASAC has a social side"
+			"title": "SASAC Has A Social Side",
+			"verticalMenuItem": true
 		},
 		"theInstructors": {
 			"name": "The Instructors",
 			"path": "theinstructors.php",
-			"title": "Meet the instructors"
+			"title": "Meet The Instructors",
+			"verticalMenuItem": true
 		},
 		"calendar": {
 			"name": "Calendar",
 			"path": "calendar.php",
-			"title": "SASAC's calendar"
+			"title": "SASAC's Calendar",
+			"verticalMenuItem": true
 		},
 		"photoCompetition": {
 			"name": "Photo Competition",
 			"path": "photocompetition.php",
-			"title": "SASAC's photo competition winners"
+			"title": "SASAC's Photo Competition Winners",
+			"verticalMenuItem": true
 		},
 		"restorationGrant": {
 			"name": "Restoration Grant",
 			"path": "restoration.php",
-			"title": "SASAC's restoration grant"
+			"title": "SASAC's Restoration Grant",
+			"verticalMenuItem": true
+		},
+		"contactUs": {
+			"name": "Contact Us",
+			"path": "contact.php",
+			"title": "Contact Us",
+			"verticalMenuItem": false
+		},
+		"links": {
+			"name": "Links",
+			"path": "links.php",
+			"title": "Links",
+			"verticalMenuItem": false
 		},
 		"downloads": {
 			"name": "Downloads",
 			"path": "downloads.php",
-			"title": "SASAC downloads"
+			"title": "SASAC Downloads",
+			"verticalMenuItem": false
+		},
+		"faqs": {
+			"name": "FAQs",
+			"path": "faqs.php",
+			"title": "Frequently Asked Questions",
+			"verticalMenuItem": true
 		},
 		"pageNotFound": {
 			"name": "Page Not Found",
 			"path": "pagenotfound.php",
-			"title": "Page Not Found"
+			"title": "Page Not Found",
+			"verticalMenuItem": false
 		}
 	},
 	"paths": {
@@ -90,6 +125,10 @@
 		"Calendar": "calendar",
 		"Photo-Competition": "photoCompetition",
 		"Restoration-Grant": "restorationGrant",
+		"FAQs": "faqs",
+		"Facilities": "facilities",
+		"Links": "links",
+		"Contact-Us": "contactUs",
 		"Downloads": "downloads"
 	}
 }

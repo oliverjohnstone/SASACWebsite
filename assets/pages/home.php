@@ -1,35 +1,33 @@
 <div>
-	<p>Welcome to St Albans Sub Aqua Club's website, we are an active scuba diving club based in St Albans. We are currently looking for new members
-		to join our club and learn to dive. Diving is a unique experience on par with nothing else, it is like experiencing a whole different world and we would like to share this experience with as many people as we can, so why not come down to the club for a try dive and see if you will enjoy diving as much as our current members do.</p>
-	<p>We are a branch of the British Sub Aqua Club (<a href="http://bsac.com" target="_blank">BSAC</a>) and have plenty to offer for both those new to scuba diving and experienced divers looking to go on trips or advance their skills. SASAC has its own clubhouse, which is open from 8pm-late every Wednesday, including a lecture room where all the theory lessons for our various training courses take place, and a licensed bar.</p>
+	<p><span class="bold">Welcome to St Albans Sub Aqua Club's website!</span> We are an active branch of the <a href="http://www.bsac.com" target="_blank">BSAC</a> 
+	 	(British Sub Aqua Club) diving group with about 100 members, we have numerous facilities for those hard core divers as well as any newcomers, we also have a 
+	 	great set of instructors eager to teach, so why not join us for the next seasons diving. Diving is an experience like no other, many 
+	 	people often describe it as like being an astronaut, who didn't want to be an astronaut when they were younger? Well now you can!</p>
 
-	<div class="announcements">
-		<div class="pagination">
-			<a href="#" class="pagination-item active" id="page1"></a>
-			<a href="#" class="pagination-item" id="page2"></a>
-			<a href="#" class="pagination-item" id="page3"></a>
-			<a href="#" class="pagination-item" id="page4"></a>
-			<a href="#" class="pagination-item" id="page5"></a>
-			<h5 class="title">What's Going On?</h5>
-		</div>
-		<div class="items">
-			<div class="announce-item active" id="item1">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a urna at dolor fermentum rhoncus. Fusce nibh massa, dictum ut egestas quis, consectetur quis arcu. Curabitur et massa quis enim dictum consequat. Praesent dignissim nibh at velit semper et interdum quam porttitor. Morbi congue dolor ut justo aliquam rutrum. Vivamus ac arcu quam. Aliquam eu neque id turpis blandit adipiscing in vitae velit. Donec facilisis sagittis dui, nec euismod sem gravida eu.
-			</div>
-			<div class="announce-item" id="item2">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a urna at dolor fermentum rhoncus. Fusce nibh massa, dictum ut egestas quis, consectetur quis arcu. Curabitur et massa quis enim dictum consequat. Praesent dignissim nibh at velit semper et interdum quam porttitor. Morbi congue dolor ut justo aliquam rutrum. Vivamus ac arcu quam. Aliquam eu neque id turpis blandit adipiscing in vitae velit. Donec facilisis sagittis dui, nec euismod sem gravida eu.
-			</div>
-			<div class="announce-item" id="item3">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a urna at dolor fermentum rhoncus. Fusce nibh massa, dictum ut egestas quis, consectetur quis arcu. Curabitur et massa quis enim dictum consequat. Praesent dignissim nibh at velit semper et interdum quam porttitor. Morbi congue dolor ut justo aliquam rutrum. Vivamus ac arcu quam. Aliquam eu neque id turpis blandit adipiscing in vitae velit. Donec facilisis sagittis dui, nec euismod sem gravida eu.
-			</div>
-			<div class="announce-item" id="item4">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a urna at dolor fermentum rhoncus. Fusce nibh massa, dictum ut egestas quis, consectetur quis arcu. Curabitur et massa quis enim dictum consequat. Praesent dignissim nibh at velit semper et interdum quam porttitor. Morbi congue dolor ut justo aliquam rutrum. Vivamus ac arcu quam. Aliquam eu neque id turpis blandit adipiscing in vitae velit. Donec facilisis sagittis dui, nec euismod sem gravida eu.
-			</div>
-			<div class="announce-item" id="item5">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a urna at dolor fermentum rhoncus. Fusce nibh massa, dictum ut egestas quis, consectetur quis arcu. Curabitur et massa quis enim dictum consequat. Praesent dignissim nibh at velit semper et interdum quam porttitor. Morbi congue dolor ut justo aliquam rutrum. Vivamus ac arcu quam. Aliquam eu neque id turpis blandit adipiscing in vitae velit. Donec facilisis sagittis dui, nec euismod sem gravida eu.
-			</div>
-		</div>
-		<a class="subscribe-link" href="/announcements">Subscribe to Announcements</a>
-	</div>
+	<p><span class="bold">So what has our club got to offer?</span> Our club is full of incredibly insightful and upbeat members, all of whom
+		are willing to get stuck in and help wherever they can. We hold regular trips to both the chillier waters of the UK including Porthkerris,
+		Waymouth, Lochaline, Farne islands, ... and the more climate waters of aboard including Egypt, Spain, South Pacific, Maldives and much, much more.</p>
+
+	<p><span class="bold">Our Facilities</span>, to name a few
+		<ul>
+			<li>Our own clubhouse with a fully stocked bar</li>
+			<li>Compressor</li>
+			<li>Booster pump</li>
+			<li>Kit hire</li>
+			<li>Oxygen banks</li>
+			<li>Lecture room</li>
+			<li>Our own, open air pool as well as access to the Westminster lodge pool</li>
+			<li>Club RHIB (Rigid Hull Inflatable Boat)</li>
+			<li>AED (Automated External Defibrillator)</li>
+			<li>Regional Skill Development Courses</li>
+			<li>Mutual Fund (Insurance for your kit)</li>
+		</ul>
+	</p>
+
+	<p>We are able to cater for all your diving needs, whether you are a fully blown technical cave diver with a rebreather and open circuit to boot
+		or just looking for the occasional blue water dive, and everyone in-between. If your not sure, why not come down to our clubhouse and meet everyone or
+		take a try dive and see if you'll like it, you wont regret it.</p>
+
+	<p class="bold">Check out this years <a href="Photo-Competition">photo competition</a> winners and like us on <a target="_blank" href="http://www.facebook.com/StAlbansSubAquaClub">
+		facebook</a>.</p>
 </div>
-<script type="text/javascript" src="/assets/js/announcements.js"></script>

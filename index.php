@@ -69,6 +69,7 @@ if ($mobileDetect->isMobile() && !$mobileDetect->isTablet()) {
 				<ul>
 <?php
 foreach ($settings->pages as $array_key => $page) {
+	if (!$page->verticalMenuItem) continue;
 	$key = array_search($array_key, (array) $settings->paths);
 	if (!$key) continue;
 	$name = $page->name;
@@ -92,9 +93,22 @@ foreach ($settings->exceptions as $key => $value) {
 			<div class="content">
 				<div class="horizontal-menu">
 					<ul>
-						<li><a href="#" onclick="$('#contact-us').modal(); return false;">Contact Us</a></li>
-						<li><a href="#" onclick="$('#tools').modal(); return false;">Tools</a></li>
-						<li><a href="#" onclick="$('#site-map').modal(); return false;">Site Map</a></li>
+<?php
+foreach ($settings->pages as $array_key => $page) {
+	if ($page->verticalMenuItem) continue;
+	$key = array_search($array_key, (array) $settings->paths);
+	if (!$key) continue;
+	$name = $page->name;
+	$path = $key;
+	$class = "menuitem";
+	if ($settings->PageRoot . $page->path === $reqPage) {
+		$class .= " selected";
+	}
+?>
+					<li><a href="<?php echo $path; ?>"><?php echo $name; ?></a></li>
+<?php
+}
+?>
 					</ul>
 				</div>
 				<div class="edge"></div>
@@ -114,73 +128,6 @@ foreach ($settings->exceptions as $key => $value) {
 		</div>
 		<div class="footer">&copy; Copyright <?php echo date("Y"); ?> St Albans Sub Aqua Club<br>
 			We use cookies on this site - <a href="http://en.wikipedia.org/wiki/HTTP_cookie" target="_blank">What is a cookie?</a></div>
-		<div class="modal hide fade" id="contact-us" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-			<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					<h3>Contact Us</h3>
-			</div>
-			<div class="modal-body">
-
-				<address>
-					SASAC Clubhouse<br />
-					Cottonmill Swimming Pool<br />
-					Cottonmill Lane<br />
-					St Albans<br />
-					Hertfordshire<br />
-					AL1 1HJ<br />
-					01727 859 829
-				</address>
-				<a target="_blank" href="http://maps.google.co.uk/maps?q=St+Albans+Sub+Aqua+Club,+Cottonmill+Lane,+St.+Albans&amp;hl=en&amp;ll=51.745927,-0.335984&amp;spn=0.002883,0.007907&amp;sll=52.8382,-2.327815&amp;sspn=11.533929,32.387695&amp;oq=st+albans+sub+&amp;hq=St+Albans+Sub+Aqua+Club,&amp;hnear=Cottonmill+Ln,+St+Albans,+United+Kingdom&amp;t=h&amp;z=18">View Map</a>
-				<p>If you want to contact us about training, membership, technical issues please use the above number or use the 
-					<a href='/Learn-To-Dive'>contact us</a> form to send an email.The club is run by volunteers but we will always attempt 
-					to respond in a reasonable time.
-				</p>
-			</div>
-		</div>
-		<div class="modal hide fade" id="site-map" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-			<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					<h3>Site Map</h3>
-			</div>
-			<div class="modal-body">
-				<ul class="site-map">
-<?php
-foreach ($settings->pages as $array_key => $page) {
-	$key = array_search($array_key, (array) $settings->paths);
-	if (!$key) continue;
-	$name = $page->name;
-	$path = $key;
-?>
-					<li><a href="<?php echo $path ?>"><?php echo $name; ?></a></li>
-<?php
-}
-foreach ($settings->exceptions as $key => $value) {
-?>
-					<li><a href="<?php echo $value ?>"><?php echo $key; ?></a></li>
-<?php
-}
-?>
-				</ul>
-			</div>
-		</div>
-		<div class="modal hide fade" id="tools" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-			<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					<h3>Tools</h3>
-			</div>
-			<div class="modal-body">
-				<h3>Tools, coming soon.</h3>
-				<p>Possible tools to come:</p>
-				<ul>
-					<li>On line dive logs - with user tagging</li>
-					<li>Website CMS</li>
-					<li>Dive group mailing lists</li>
-					<li>Google calendar integration</li>
-					<li>Dive planning tool</li>
-				</ul>
-				<p>If you have any suggestions, please email <a href='mailto:webmaster@sasac.co.uk'>webmaster@sasac.co.uk</a></p>
-			</div>
-		</div>
 	</div><!-- IE Container -->
 	</body>
 	<script type="text/javascript">
