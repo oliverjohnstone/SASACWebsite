@@ -37,8 +37,14 @@ function stripParentDirectories($path) {
 	}
 	return $newPath;
 }
+
 function pumpDownload($path) {
 	if (is_readable($path) && is_file($path)) {
+		if (strstr($path, "/private/")) {
+			header('HTTP/1.0 404 Not Found'); 
+			echo "File not found!";
+			exit;
+		}
 		$mime = mime_content_type($path);
 		header("Content-Description: File Transfer");
 		header("Content-Type: $mime");
@@ -61,6 +67,11 @@ function pumpDownload($path) {
 
 function listDirectory($path, $isRootDir, $relativePath) {
 	if (is_dir($path) && is_readable($path)) {
+		if (strstr($path, "/private/")) {
+			header('HTTP/1.0 404 Not Found'); 
+			echo "Path not found!";
+			exit;
+		}
 		$output = new stdClass();
 		$output->directory = array();
 		$output->rootDir = $isRootDir;
@@ -82,9 +93,11 @@ function listDirectory($path, $isRootDir, $relativePath) {
 		}
 		while($file = readdir($dir)) {
 			if ($file === ".." || $file === ".") continue;
+			$baseName = basename($file);
+			if ($baseName == "private") continue;
 			$entry = array();
 			$entry["isFile"] = is_file($path . $file);
-			$entry["name"] = basename($file);
+			$entry["name"] = $baseName;
 			$output->directory[] = $entry;
 		}
 		closedir($dir);
