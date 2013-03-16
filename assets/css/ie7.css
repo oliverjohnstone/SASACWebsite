@@ -1,15 +1,8 @@
 .ie7-bottom{
-	top: 0;
+	top: 36px;
 }
 .fb-like {
 	display: none;
-}
-.twitter-share-button {
-	display: none;
-}
-.learn-to-dive-img {
-	left: 430px; 
-	top: -363px;
 }
 .horizontal-menu li {
 	display: inline;
@@ -17,4 +10,7 @@
 .horizontal-menu li a {
 	display: block;
 	width: 80px;
+}
+.content-body {
+	min-height: 0;
 }

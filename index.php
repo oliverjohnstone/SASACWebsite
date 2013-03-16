@@ -118,9 +118,12 @@ foreach ($settings->pages as $array_key => $page) {
 						<?php include $reqPage; ?>
 					</div>
 				</div>
+				<!--[if IE]>
+				<div class="ie-long-bottom"></div>
+				<![endif]-->
 			</div>
 			<!--[if IE]>
-			<div class="ie-bottom ie7-bottom"></div>
+			<div class="ie-short-bottom ie7-bottom"></div>
 			<![endif]-->
 		</div>
 		<div class="footer">&copy; Copyright <?php echo date("Y"); ?> St Albans Sub Aqua Club<br>

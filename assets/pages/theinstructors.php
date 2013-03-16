@@ -12,8 +12,8 @@
 
 		<div class='image-gallery-column'>
 			<a class='image-gallery-image' href='#'>
-				<span class='image-gallery-roll' instructorInfo="<h5>Carl Graham</h5><h6></h6><p></p>" instructorName="Carl Graham"></span>
-				<img src="assets/media/instructors/ImageToCome.jpg" class="img-rounded">
+				<span class='image-gallery-roll' instructorInfo="<h5>Carl Graham, Dive Leader</h5><h6>Open Water Instructor</h6><p>Carl enjoys diving because it means he can leave work behind and relax with friends.</p>" instructorName="Carl Graham"></span>
+				<img src="assets/media/instructors/CarlGraham.jpg" class="img-rounded">
 			</a> 
 			<p>Carl Graham</p>
 		</div>

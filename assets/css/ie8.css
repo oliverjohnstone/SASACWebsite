@@ -1,9 +1,24 @@
-.ie-bottom{
+.ie-short-bottom{
 	left: 40px;
-	width: 940px;
+	width: 219px;
 	position: relative;
 	height: 14px;
 	top: 740px;
-	background-image: url('../img/ie-bottom.png');
+	background-image: url('../img/ie-short-bottom.png');
 	background-repeat: no-repeat;
+}
+.ie-long-bottom {
+	left: -1px;
+	width: 721px;
+	position: relative;
+	height: 14px;
+	background-image: url('../img/ie-long-bottom.png');
+	background-repeat: no-repeat;
+	top: 24px;
+}
+.content-body {
+	min-height: 650px;
+}
+.footer {
+	top: 47px;
 }
