@@ -1,5 +1,5 @@
 <div>
-	<p>Every year our club runs a photo competition for our own club members as well as others outside the club. 2012/13 has been a particularly good year as you can see from the wining photos below.</p>
+	<p>Every year our club runs a photo competition for our own club members as well as others outside the club. This year has been particularly good as you can see from the wining photos below.</p>
 	
 <!-- TROPICAL -->
 	<h4 class='entry-section'>Tropical Entries</h4>

@@ -83,28 +83,33 @@
 ?>
 	<form method="post">
 		<div class="control-group <?php echo isset($errors["Forename"]) ? "error" : ""; ?>">
+			<label>First Name</label>
 			<div class="controls">
 				<input class="input-large" type="text" id="inputForename" placeholder="First Name" name="Forename" value="<?php echo $_POST["Forename"]; ?>">
 				<span class="help-inline"><?php echo isset($errors["Forename"]) ? $errors["Forename"] : ""; ?></span>
 			</div>
 		</div>
 		<div class="control-group">
+			<label>Surname</label>
 			<div class="controls">
 				<input class="input-large" type="text" id="inputSurname" placeholder="Surname" name="Surname" value="<?php echo $_POST["Surname"]; ?>">
 			</div>
 		</div>
 		<div class="control-group">
+			<label>Phone Number</label>
 			<div class="controls">
 				<input class="input-large" type="text" id="inputNumber" placeholder="Phone Number" name="PhoneNumber" value="<?php echo $_POST["PhoneNumber"]; ?>">
 			</div>
 		</div>
 		<div class="control-group <?php echo isset($errors["Email"]) ? "error" : ""; ?>">
+			<label>Email Address</label>
 			<div class="controls">
 				<input class="input-large" type="text" id="inputEmail" placeholder="Email Address" name="Email" value="<?php echo $_POST["Email"]; ?>">
 				<span class="help-inline"><?php echo isset($errors["Email"]) ? $errors["Email"] : ""; ?></span>
 			</div>
 		</div>
 		<div class="control-group <?php echo isset($errors["Message"]) ? "error" : ""; ?>">
+			<label>Your Message</label>
 			<div class="controls">
 				<textarea class="input-xlarge" id="inputMessage" placeholder="Enter your message in here" name="Message"><?php echo $_POST["Message"]; ?></textarea>
 				<span class="help-inline"><?php echo isset($errors["Message"]) ? $errors["Message"] : ""; ?></span>

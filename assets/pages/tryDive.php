@@ -20,4 +20,4 @@ Not sure if you will like it or not?</p>
 <p>To come along and give it a go please call us on 01727 859 829 or email <a href="mailto:hello@sasac.co.uk">hello@sasac.co.uk</a> to book your experience today.</p>
 
 <p>If you would like to come along and get some more information first then please turn up on any Wednesday night to the Clubhouse, 
-	on Sopwell Lane ( please see the <a href="/Contact-Us">contact us</a> page for directions)- we are open from 7:30pm, and have a fully stocked bar.</p>
+	on Cottonmill Lane (please see the <a href="/Contact-Us">contact us</a> page for directions)- we are open from 7:30pm, and have a fully stocked bar.</p>

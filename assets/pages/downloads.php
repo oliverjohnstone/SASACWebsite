@@ -1,7 +1,7 @@
 <div>
 	<div class="loading"></div>
 	<p>The following downloads are all the important club documents and useful
-		information pertaining to St Albans Sub Aqua Club.</p>
+		information regarding St Albans Sub Aqua Club.</p>
 	<div class="home" onclick="parseDirectory(); return false;"></div>
 	<label class="location">/</label>
 	<ul class="downloads_list">

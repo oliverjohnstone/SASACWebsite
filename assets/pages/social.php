@@ -7,7 +7,7 @@
 	<p>A number of our members also go the extra mile and will organise other, non diving related events such as the French food night, movie night,
 		the dinner dance, a lecture series and guest talkers.</p>
 
-	<p>This year's dinner dance, organised by Lisa Shafe, was a resounding success. Everyone had their glad rags on and joined in the entertainment.
+	<p>Our annual dinner dances organised by Lisa and Nadine are very popular. Everyone dons their glad rags on and joins in the entertainment.
 		The dinner dance is the perfect time for everyone, including past members and diving parters to catch up and to generally have a great time.</p>
 
 	<img src="/assets/media/general/bbq1.jpg" class="img-rounded large-img-rounded">

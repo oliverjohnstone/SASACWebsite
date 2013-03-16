@@ -6,7 +6,7 @@
 
 	<p><span class="bold">So what has our club got to offer?</span> Our club is full of incredibly insightful and upbeat members, all of whom
 		are willing to get stuck in and help wherever they can. We hold regular trips to both the chillier waters of the UK including Porthkerris,
-		Waymouth, Lochaline, Farne islands, ... and the more climate waters of aboard including Egypt, Spain, South Pacific, Maldives and much, much more.</p>
+		Weymouth, Lochaline, Farne islands, ... and the warmer waters of aboard including Egypt, Spain, South Pacific, Maldives and much, much more.</p>
 
 	<p><span class="bold">Our Facilities</span>, to name a few
 		<ul>
@@ -20,7 +20,6 @@
 			<li>Club RHIB (Rigid Hull Inflatable Boat)</li>
 			<li>AED (Automated External Defibrillator)</li>
 			<li>Regional Skill Development Courses</li>
-			<li>Mutual Fund (Insurance for your kit)</li>
 		</ul>
 	</p>
 
