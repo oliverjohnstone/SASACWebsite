@@ -28,9 +28,6 @@ if ($mobileDetect->isMobile() && !$mobileDetect->isTablet()) {
 			<script type="text/javascript" src="assets/js/main.js"></script>
 			<script type="text/javascript" src="assets/js/plugins/jquery-form.js"></script>
 		<!--<[endif]-->
-		<!--[if IE]>
-			<link rel="stylesheet" type="text/css" href="assets/css/ie.css">
-		<![endif]-->
 		<!--[if lte IE 8]>
 			<link rel="stylesheet" type="text/css" href="assets/css/ie8.css">
 		<![endif]-->

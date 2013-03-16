@@ -47,10 +47,10 @@
 			"title": "What We Have To Offer",
 			"verticalMenuItem": true
 		},
-		"underwaterHockey": {
-			"name": "Underwater Hockey",
-			"path": "underwaterhockey.php",
-			"title": "Play underwater hockey with SASAC",
+		"snorkelling": {
+			"name": "Snorkelling",
+			"path": "snorkelling.php",
+			"title": "Come snorkel with SASAC",
 			"verticalMenuItem": true
 		},
 		"social": {
@@ -119,7 +119,7 @@
 		"Try-Dive": "tryDive",
 		"Training": "training",
 		"Technical-Diving": "technicalDiving",
-		"Underwater-Hockey": "underwaterHockey",
+		"Snorkelling": "snorkelling",
 		"Social": "social",
 		"The-Instructors": "theInstructors",
 		"Calendar": "calendar",

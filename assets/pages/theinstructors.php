@@ -3,64 +3,48 @@
 	<div class='image-gallery-row'>
 		<div class='image-gallery-column'>
 			<a class='image-gallery-image' href='#'>
+				<span class='image-gallery-roll' instructorInfo="<h5>Alan Mawford, BSAC Open Water Instructor</h5><h6>BSAC Advanced Diver, PADI Rescue Diver</h6><p>Started training with SASAC in 2001 completed following year in the Red Sea, where also became PADI qualified. Likes neutral buoyancy - 'it's the nearest sensation to weightlessness.'</p>" instructorName="Alan Mayford"></span>
+				<img src="assets/media/instructors/AlanMawford.jpg" class="img-rounded">
+			</a> 
+			<p>Alan Mawford</p>
+		</div>
+
+		<div class='image-gallery-column'>
+			<a class='image-gallery-image' href='#'>
+				<span class='image-gallery-roll' instructorInfo="<h5>Carl Graham, BSAC Open Water Instructor</h5><h6>BSAC Advanced Diver</h6><p>Trained with Bushey &amp; Borehamwood Sub-Aqua Club in 2004. Eamonn finds diving a good way to relax - 'my phone doesn't work under water' - and likes both scenic diving and wrecks that are in good condition.</p>" instructorName="Carl Graham"></span>
+				<img src="assets/media/instructors/CarlGraham.jpg" class="img-rounded">
+			</a> 
+			<p>Carl Graham</p>
+		</div>
+
+		<div class='image-gallery-column'>
+			<a class='image-gallery-image' href='#'>
+				<span class='image-gallery-roll' instructorInfo="<h5>Lisa Shafe, BSAC Open Water Instructor</h5><h6>BSAC Advanced Diver</h6><p>Trained with Bushey &amp; Borehamwood Sub-Aqua Club in 2004. Eamonn finds diving a good way to relax - 'my phone doesn't work under water' - and likes both scenic diving and wrecks that are in good condition.</p>" instructorName="Lisa Shafe"></span>
+				<img src="assets/media/instructors/LisaShafe.jpg" class="img-rounded">
+			</a> 
+			<p>Lisa Shafe</p>
+		</div>
+
+		<div class='image-gallery-column'>
+			<a class='image-gallery-image' href='#'>
+				<span class='image-gallery-roll' instructorInfo="<h5>Jacqui Willis, BSAC Open Water Instructor</h5><h6>BSAC Advanced Diver</h6><p>Trained with Bushey &amp; Borehamwood Sub-Aqua Club in 2004. Eamonn finds diving a good way to relax - 'my phone doesn't work under water' - and likes both scenic diving and wrecks that are in good condition.</p>" instructorName="Jacqui Willis"></span>
+				<img src="assets/media/instructors/JacquiWillis.jpg" class="img-rounded">
+			</a> 
+			<p>Jacqui Willis</p>
+		</div>
+
+	</div>
+
+
+	<div class='image-gallery-row'>
+		<div class='image-gallery-column'>
+			<a class='image-gallery-image' href='#'>
 				<span class='image-gallery-roll' instructorInfo="<h5>Paul Compton, BSAC Advanced Instructor and SASAC's Diving Officer</h5><h6>BSAC First Class Diver Trained in 2001 with SASAC</h6><p>Paul has a special interest in technical diving and has taken Technical Diving International's Trimix Diver course. 'It was something I'd always wanted to do - the children had grown up and I could go diving when I liked'.</p>" instructorName="Paul Compton"></span>
 				<img src="assets/media/instructors/PaulCompton.jpg" class="img-rounded">
 			</a> 
 			<p>Paul Compton</p>
 		</div>
-		<div class='image-gallery-column'>
-			<a class='image-gallery-image' href='#'>
-				<span class='image-gallery-roll' instructorInfo="<h5>Reg Ellis, BSAC Open Water Instructor and SASAC's boat officer</h5><h6>BSAC Advanced Diver</h6><p>Trained with SASAC in 1984. Reg likes the adventure of UK diving over the 'pedestrian predictability' of most warm-water diving. He has a special interest in marine life - 'a lot of it tastes so good.'</p>" instructorName="Reg Ellis"></span>
-				<img src="assets/media/instructors/RegEllis.jpg" class="img-rounded">
-			</a> 
-			<p>Reg Ellis</p>
-		</div>
-		<div class='image-gallery-column'>
-			<a class='image-gallery-image' href='#'>
-				<span class='image-gallery-roll' instructorInfo="<h5>Garnett Henderson, BSAC Open Water Instructor</h5><h6>BSAC Advanced Diver, PADI Rescue Diver</h6><p>Started training with SASAC in 2001 completed following year in the Red Sea, where also became PADI qualified. Likes neutral buoyancy - 'it's the nearest sensation to weightlessness.'</p>" instructorName="Garnett Henderson"></span>
-				<img src="assets/media/instructors/GarnettHenderson.jpg" class="img-rounded">
-			</a> 
-			<p>Garnett Henderson</p>
-		</div>
-		<div class='image-gallery-column'>
-			<a class='image-gallery-image' href='#'>
-				<span class='image-gallery-roll' instructorInfo="<h5>Sarah Kennedy, BSAC Open Water Instructor and SASAC's Treasurer</h5><h6>BSAC Dive Leader, PADI Rescue Diver</h6><p>Trained with PADI in 2005 in Spain and joined SASAC in 2006. Sarah likes the tranquillity of diving and prefers the sea life of scenic diving to exploring wrecks - 'I'm not that interested in scrap metal!'</p>" instructorName="Sarah Kennedy"></span>
-				<img src="assets/media/instructors/SarahKennedy.jpg" class="img-rounded">
-			</a> 
-			<p>Sarah Kennedy</p>
-		</div>
-	</div>
-	<div class='image-gallery-row'>
-		<div class='image-gallery-column'>
-			<a class='image-gallery-image' href='#'>
-				<span class='image-gallery-roll' instructorInfo="<h5>Steve Kennedy, BSAC Open Water Instructor</h5><h6>BSAC Dive Leader, PADI Rescue Diver</h6><p>Trained with PADI in 2005 in Spain and joined SASAC in 2006. Steve likes the 'feeling of flying' you get from diving and being able to get up close to sea life. 'On land you see something 20 yards away - in the sea it's so close.'</p>" instructorName="Steve Kennedy"></span>
-				<img src="assets/media/instructors/SteveKennedy.jpg" class="img-rounded">
-			</a> 
-			<p>Steve Kennedy</p>
-		</div>
-		<div class='image-gallery-column'>
-			<a class='image-gallery-image' href='#'>
-				<span class='image-gallery-roll' instructorInfo="<h5>Eamonn Murphy, BSAC Open Water Instructor</h5><h6>BSAC Advanced Diver</h6><p>Trained with Bushey &amp; Borehamwood Sub-Aqua Club in 2004. Eamonn finds diving a good way to relax - 'my phone doesn't work under water' - and likes both scenic diving and wrecks that are in good condition.</p>" instructorName="Eamonn Murphy"></span>
-				<img src="assets/media/instructors/EamonnMurphy.jpg" class="img-rounded">
-			</a> 
-			<p>Eamonn Murphy</p>
-		</div>
-		<div class='image-gallery-column'>
-			<a class='image-gallery-image' href='#'>
-				<span class='image-gallery-roll' instructorInfo="<h5>Chris Price, BSAC Open Water Instructor</h5><h6>BSAC Dive Leader</h6><p>Trained in 2007 with Trident Sub Aqua Club in Hatfield along with his son, before joining SASAC in 2010. 'I like all types of diving but warm waters with a wreck and lots of sea life have to be best.'</p>" instructorName="Chris Price"></span>
-				<img src="assets/media/instructors/ChrisPrice.jpg" class="img-rounded">
-			</a> 
-			<p>Chris Price</p>
-		</div>
-		<div class='image-gallery-column'>
-			<a class='image-gallery-image' href='#'>
-				<span class='image-gallery-roll' instructorInfo="<h5>Robin Smith, BSAC Open Water Instructor</h5><h6>BSAC Advanced Diver</h6><p>Trained with SASAC in 2000. Robin has a special interest in marine life and is an observer for Sesearch, the Marine Conversation Society's survey to map the UK near-shore seabed. 'Diving is great because it requires absolute concentration.'</p>" instructorName="Robin Smith"></span>
-				<img src="assets/media/instructors/RobinSmith.jpg" class="img-rounded">
-			</a> 
-			<p>Robin Smith</p>
-		</div>
-	</div>
-	<div class='image-gallery-row'>
+
 		<div class='image-gallery-column'>
 			<a class='image-gallery-image' href='#'>
 				<span class='image-gallery-roll' instructorInfo="<h5>Peter Stansfield, BSAC Advanced Instructor</h5><h6>BSAC First Class Diver</h6><p>Trained with Potters Bar Sub Aqua Club in 1976 before joining SASAC in 1988. 'Diving is one of the few things that stops me worrying about work.' A keen technical diver, Peter has taken the Trimix Diver course run by Technical Diving International.</p>" instructorName="Peter Stansfield"></span>
@@ -68,8 +52,53 @@
 			</a> 
 			<p>Peter Stansfield</p>
 		</div>
+
+		<div class='image-gallery-column'>
+			<a class='image-gallery-image' href='#'>
+				<span class='image-gallery-roll' instructorInfo="<h5>Pierre Leon, BSAC Advanced Instructor</h5><h6>BSAC First Class Diver</h6><p>Trained with Potters Bar Sub Aqua Club in 1976 before joining SASAC in 1988. 'Diving is one of the few things that stops me worrying about work.' A keen technical diver, Peter has taken the Trimix Diver course run by Technical Diving International.</p>" instructorName="Pierre Leon"></span>
+				<img src="assets/media/instructors/PierreLeon.jpg" class="img-rounded">
+			</a> 
+			<p>Pierre Leon</p>
+		</div>
+
+		<div class='image-gallery-column'>
+			<a class='image-gallery-image' href='#'>
+				<span class='image-gallery-roll' instructorInfo="<h5>Reg Ellis, BSAC Open Water Instructor and SASAC's boat officer</h5><h6>BSAC Advanced Diver</h6><p>Trained with SASAC in 1984. Reg likes the adventure of UK diving over the 'pedestrian predictability' of most warm-water diving. He has a special interest in marine life - 'a lot of it tastes so good.'</p>" instructorName="Reg Ellis"></span>
+				<img src="assets/media/instructors/RegEllis.jpg" class="img-rounded">
+			</a> 
+			<p>Reg Ellis</p>
+		</div>
+	</div>
+
+
+	<div class='image-gallery-row'>
+		<div class='image-gallery-column'>
+			<a class='image-gallery-image' href='#'>
+				<span class='image-gallery-roll' instructorInfo="<h5>Sarah Kennedy, BSAC Open Water Instructor and SASAC's Treasurer</h5><h6>BSAC Dive Leader, PADI Rescue Diver</h6><p>Trained with PADI in 2005 in Spain and joined SASAC in 2006. Sarah likes the tranquillity of diving and prefers the sea life of scenic diving to exploring wrecks - 'I'm not that interested in scrap metal!'</p>" instructorName="Sarah Kennedy"></span>
+				<img src="assets/media/instructors/SarahKennedy.jpg" class="img-rounded">
+			</a> 
+			<p>Sarah Kennedy</p>
+		</div>
+
+		<div class='image-gallery-column'>
+			<a class='image-gallery-image' href='#'>
+				<span class='image-gallery-roll' instructorInfo="<h5>Steve Gore, BSAC Open Water Instructor</h5><h6>BSAC Dive Leader</h6><p>Trained in 2007 with Trident Sub Aqua Club in Hatfield along with his son, before joining SASAC in 2010. 'I like all types of diving but warm waters with a wreck and lots of sea life have to be best.'</p>" instructorName="Steve Gore"></span>
+				<img src="assets/media/instructors/SteveGore.jpg" class="img-rounded">
+			</a> 
+			<p>Steve Gore</p>
+		</div>
+
+		<div class='image-gallery-column'>
+			<a class='image-gallery-image' href='#'>
+				<span class='image-gallery-roll' instructorInfo="<h5>Steve Kennedy, BSAC Open Water Instructor</h5><h6>BSAC Dive Leader, PADI Rescue Diver</h6><p>Trained with PADI in 2005 in Spain and joined SASAC in 2006. Steve likes the 'feeling of flying' you get from diving and being able to get up close to sea life. 'On land you see something 20 yards away - in the sea it's so close.'</p>" instructorName="Steve Kennedy"></span>
+				<img src="assets/media/instructors/SteveKennedy.jpg" class="img-rounded">
+			</a> 
+			<p>Steve Kennedy</p>
+		</div>
 	</div>
 </div>
+
+
 <div class="modal hide fade" id="instructor-info">
 	<div class="modal-header">
 		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
