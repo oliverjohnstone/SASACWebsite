@@ -55,7 +55,7 @@
 			<img src="assets/media/restoration/more_new_paint.jpg" alt="">
 			<div class="carousel-caption">
 				<h4>Painting the Clubhouse</h4>
-				<p>Now for decorating the inside of the clubhouse and a glimpse of the old carpet before we tare it up.</p>
+				<p>Now for decorating the inside of the clubhouse and a glimpse of the old carpet before we tear it up.</p>
 			</div>
 		</div>
 

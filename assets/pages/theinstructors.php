@@ -1,6 +1,6 @@
 <div>
 	<p>This is a list of the currently active instructors at St Albans Sub Aqua Club. Don't worry, some of them don't really look like
-		gremlins, we're just waiting on some photos for them. Check back soon.</p>
+		gremlins, we're just waiting for their photos. Check back soon.</p>
 	<div class='image-gallery-row'>
 		<div class='image-gallery-column'>
 			<a class='image-gallery-image' href='#'>
@@ -41,14 +41,14 @@
 		<div class='image-gallery-column'>
 			<a class='image-gallery-image' href='#'>
 				<span class='image-gallery-roll' instructorInfo="<h5>Paul Compton, BSAC Advanced Instructor and SASAC's Diving Officer</h5><h6>BSAC First Class Diver Trained in 2001 with SASAC</h6><p>Paul has a special interest in technical diving and has taken Technical Diving International's Trimix Diver course. 'It was something I'd always wanted to do - the children had grown up and I could go diving when I liked'.</p>" instructorName="Paul Compton"></span>
-				<img src="assets/media/instructors/ImageToCome.jpg" class="img-rounded">
+				<img src="assets/media/instructors/PaulCompton.jpg" class="img-rounded">
 			</a> 
 			<p>Paul Compton</p>
 		</div>
 
 		<div class='image-gallery-column'>
 			<a class='image-gallery-image' href='#'>
-				<span class='image-gallery-roll' instructorInfo="<h5>Peter Stansfield, BSAC Advanced Instructor</h5><h6>BSAC First Class Diver</h6><p>Trained with Potters Bar Sub Aqua Club in 1976 before joining SASAC in 1988. 'Diving is one of the few things that stops me worrying about work.' A keen technical diver, Peter has taken the Trimix Diver course run by Technical Diving International.</p>" instructorName="Peter Stansfield"></span>
+				<span class='image-gallery-roll' instructorInfo="<h5>Peter Stansfield, BSAC Advanced Instructor</h5><h6>BSAC First Class Diver</h6><p>Learnt to dive in 1976 and then joined Potters Bar Sub Aqua Club before joining SASAC in 1988. 'Diving is one of the few things that stops me worrying about work.' A keen technical diver, Peter has taken the Trimix Diver certification, and is qualified to run most of the BSAC Skill Development Courses.</p>" instructorName="Peter Stansfield"></span>
 				<img src="assets/media/instructors/PeterStansfield.jpg" class="img-rounded">
 			</a> 
 			<p>Peter Stansfield</p>
