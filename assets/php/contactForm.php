@@ -1,5 +1,5 @@
 <?php
-	$to = "oliver@ojs.co";
+	$to = "hello@sasac.co.uk";
 	$from = "hello@sasac.co.uk";
 	$responce = array(
 		"errors" => array()

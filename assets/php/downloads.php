@@ -38,6 +38,14 @@ function stripParentDirectories($path) {
 	return $newPath;
 }
 
+function _mime_content_type($filename){
+	$result = new finfo();
+	if (is_resource($result) === true) {
+		return $result->file($filename, FILEINFO_MIME_TYPE);
+	}
+	return false;
+}
+
 function pumpDownload($path) {
 	if (is_readable($path) && is_file($path)) {
 		if (strstr($path, "/private/")) {
@@ -45,7 +53,7 @@ function pumpDownload($path) {
 			echo "File not found!";
 			exit;
 		}
-		$mime = mime_content_type($path);
+		$mime = _mime_content_type($path);
 		header("Content-Description: File Transfer");
 		header("Content-Type: $mime");
 		header("Content-Disposition: attachment; filename=".basename($path));
