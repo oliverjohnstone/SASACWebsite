@@ -1,102 +1,98 @@
 <div>
-	<p>This is a list of the currently active instructors at St Albans Sub Aqua Club. Don't worry, some of them don't really look like
-		gremlins, we're just waiting for their photos. Check back soon.</p>
+	<p>This is a list of the currently active instructors at St Albans Sub Aqua Club.</p>
+<?php
+	$instructors = array(
+		"Carl Graham" => array(
+			"grade" => "Dive Leader",
+			"instructor" => "Open Water Instructor",
+			"description" => "Carl enjoys diving because it means he can leave work behind and relax with friends."
+		),
+		"Steve Kennedy" => array(
+			"grade" => "BSAC Dive Leader",
+			"instructor" => "BSAC Open Water Instructor",
+			"description" => "Trained with PADI in 2005 in Spain and joined SASAC in 2006. Steve likes the 'feeling of flying' you get from diving and being able to get up close to sea life. 'On land you see something 20 yards away - in the sea it's so close.'"
+		),
+		"Sarah Kennedy" => array(
+			"grade" => "BSAC Dive Leader",
+			"instructor" => "BSAC Open Water Instructor",
+			"description" => "Trained with PADI in 2005 in Spain and joined SASAC in 2006. Sarah likes the tranquillity of diving and prefers the sea life of scenic diving to exploring wrecks - 'I'm not that interested in scrap metal!'"
+		),
+		"Paul Compton" => array(
+			"grade" => "BSAC Advanced Instructor",
+			"instructor" => "BSAC First Class Diver",
+			"description" => "Paul has a special interest in technical diving and has taken Technical Diving International's Trimix Diver course. 'It was something I'd always wanted to do - the children had grown up and I could go diving when I liked'."
+		),
+		"Peter Stansfield" => array(
+			"grade" => "BSAC Advanced Instructor",
+			"instructor" => "BSAC First Class Diver",
+			"description" => "Learnt to dive in 1976 and then joined Potters Bar Sub Aqua Club before joining SASAC in 1988. 'Diving is one of the few things that stops me worrying about work.' A keen technical diver, Peter has taken the Trimix Diver certification, and is qualified to run most of the BSAC Skill Development Courses."
+		)
+		// "Alan Mawford" => array(
+		// 	"grade" => "",
+		// 	"instructor" => "",
+		// 	"description" => ""
+		// ),
+		// "Lisa Shafe" => array(
+		// 	"grade" => "",
+		// 	"instructor" => "",
+		// 	"description" => ""
+		// ),
+		// "Jacqui Willis" => array(
+		// 	"grade" => "",
+		// 	"instructor" => "",
+		// 	"description" => ""
+		// ),
+		// "Pierre Leon" => array(
+		// 	"grade" => "",
+		// 	"instructor" => "",
+		// 	"description" => ""
+		// ),
+		// "Reg Ellis" => array(
+		// 	"grade" => "BSAC Advanced Diver",
+		// 	"instructor" => "BSAC Open Water Instructor",
+		// 	"description" => "Trained with SASAC in 1984. Reg likes the adventure of UK diving over the 'pedestrian predictability' of most warm-water diving. He has a special interest in marine life - 'a lot of it tastes so good.'"
+		// ),
+		// "Steve Gore" => array(
+		// 	"grade" => "",
+		// 	"instructor" => "",
+		// 	"description" => ""
+		// ),
+	);
+
+	ksort($instructors);
+
+	$i = 1;
+
+	foreach ($instructors as $name => $attrbs) {
+		$grade = $attrbs["grade"];
+		$instructor = $attrbs["instructor"];
+		$description = $attrbs["description"];
+		$image = str_replace(" ", "", $name);
+		if ($i === 1) {
+?>
 	<div class='image-gallery-row'>
-		<div class='image-gallery-column'>
-			<a class='image-gallery-image' href='#'>
-				<span class='image-gallery-roll' instructorInfo="<h5>Alan Mawford</h5><h6></h6><p></p>" instructorName="Alan Mawford"></span>
-				<img src="assets/media/instructors/ImageToCome.jpg" class="img-rounded">
-			</a> 
-			<p>Alan Mawford</p>
-		</div>
+<?php
+		}
+?>
 
 		<div class='image-gallery-column'>
 			<a class='image-gallery-image' href='#'>
-				<span class='image-gallery-roll' instructorInfo="<h5>Carl Graham, Dive Leader</h5><h6>Open Water Instructor</h6><p>Carl enjoys diving because it means he can leave work behind and relax with friends.</p>" instructorName="Carl Graham"></span>
-				<img src="assets/media/instructors/CarlGraham.jpg" class="img-rounded">
+				<span class='image-gallery-roll' instructorInfo="<h5><?php echo $name; ?>, <?php echo $grade; ?></h5><h6><?php echo $instructor; ?></h6><p><?php echo $description; ?></p>" instructorName="<?php echo $name; ?>"></span>
+				<img src="assets/media/instructors/<?php echo $image; ?>.jpg" class="img-rounded">
 			</a> 
-			<p>Carl Graham</p>
+			<p><?php echo $name; ?></p>
 		</div>
 
-		<div class='image-gallery-column'>
-			<a class='image-gallery-image' href='#'>
-				<span class='image-gallery-roll' instructorInfo="<h5>Lisa Shafe</h5><h6></h6><p></p>" instructorName="Lisa Shafe"></span>
-				<img src="assets/media/instructors/ImageToCome.jpg" class="img-rounded">
-			</a> 
-			<p>Lisa Shafe</p>
-		</div>
-
-		<div class='image-gallery-column'>
-			<a class='image-gallery-image' href='#'>
-				<span class='image-gallery-roll' instructorInfo="<h5>Jacqui Willis</h5><h6></h6><p></p>" instructorName="Jacqui Willis"></span>
-				<img src="assets/media/instructors/ImageToCome.jpg" class="img-rounded">
-			</a> 
-			<p>Jacqui Willis</p>
-		</div>
-
+<?php
+		if ($i === 4) {
+			$i = 0;
+?>
 	</div>
-
-
-	<div class='image-gallery-row'>
-		<div class='image-gallery-column'>
-			<a class='image-gallery-image' href='#'>
-				<span class='image-gallery-roll' instructorInfo="<h5>Paul Compton, BSAC Advanced Instructor and SASAC's Diving Officer</h5><h6>BSAC First Class Diver Trained in 2001 with SASAC</h6><p>Paul has a special interest in technical diving and has taken Technical Diving International's Trimix Diver course. 'It was something I'd always wanted to do - the children had grown up and I could go diving when I liked'.</p>" instructorName="Paul Compton"></span>
-				<img src="assets/media/instructors/PaulCompton.jpg" class="img-rounded">
-			</a> 
-			<p>Paul Compton</p>
-		</div>
-
-		<div class='image-gallery-column'>
-			<a class='image-gallery-image' href='#'>
-				<span class='image-gallery-roll' instructorInfo="<h5>Peter Stansfield, BSAC Advanced Instructor</h5><h6>BSAC First Class Diver</h6><p>Learnt to dive in 1976 and then joined Potters Bar Sub Aqua Club before joining SASAC in 1988. 'Diving is one of the few things that stops me worrying about work.' A keen technical diver, Peter has taken the Trimix Diver certification, and is qualified to run most of the BSAC Skill Development Courses.</p>" instructorName="Peter Stansfield"></span>
-				<img src="assets/media/instructors/PeterStansfield.jpg" class="img-rounded">
-			</a> 
-			<p>Peter Stansfield</p>
-		</div>
-
-		<div class='image-gallery-column'>
-			<a class='image-gallery-image' href='#'>
-				<span class='image-gallery-roll' instructorInfo="<h5>Pierre Leon</h5><h6></h6><p></p>" instructorName="Pierre Leon"></span>
-				<img src="assets/media/instructors/ImageToCome.jpg" class="img-rounded">
-			</a> 
-			<p>Pierre Leon</p>
-		</div>
-
-		<div class='image-gallery-column'>
-			<a class='image-gallery-image' href='#'>
-				<span class='image-gallery-roll' instructorInfo="<h5>Reg Ellis, BSAC Open Water Instructor and SASAC's boat officer</h5><h6>BSAC Advanced Diver</h6><p>Trained with SASAC in 1984. Reg likes the adventure of UK diving over the 'pedestrian predictability' of most warm-water diving. He has a special interest in marine life - 'a lot of it tastes so good.'</p>" instructorName="Reg Ellis"></span>
-				<img src="assets/media/instructors/ImageToCome.jpg" class="img-rounded">
-			</a> 
-			<p>Reg Ellis</p>
-		</div>
-	</div>
-
-
-	<div class='image-gallery-row'>
-		<div class='image-gallery-column'>
-			<a class='image-gallery-image' href='#'>
-				<span class='image-gallery-roll' instructorInfo="<h5>Sarah Kennedy, BSAC Open Water Instructor and SASAC's Treasurer</h5><h6>BSAC Dive Leader, PADI Rescue Diver</h6><p>Trained with PADI in 2005 in Spain and joined SASAC in 2006. Sarah likes the tranquillity of diving and prefers the sea life of scenic diving to exploring wrecks - 'I'm not that interested in scrap metal!'</p>" instructorName="Sarah Kennedy"></span>
-				<img src="assets/media/instructors/SarahKennedy.jpg" class="img-rounded">
-			</a> 
-			<p>Sarah Kennedy</p>
-		</div>
-
-		<div class='image-gallery-column'>
-			<a class='image-gallery-image' href='#'>
-				<span class='image-gallery-roll' instructorInfo="<h5>Steve Gore</h5><h6></h6><p></p>" instructorName="Steve Gore"></span>
-				<img src="assets/media/instructors/ImageToCome.jpg" class="img-rounded">
-			</a> 
-			<p>Steve Gore</p>
-		</div>
-
-		<div class='image-gallery-column'>
-			<a class='image-gallery-image' href='#'>
-				<span class='image-gallery-roll' instructorInfo="<h5>Steve Kennedy, BSAC Open Water Instructor</h5><h6>BSAC Dive Leader, PADI Rescue Diver</h6><p>Trained with PADI in 2005 in Spain and joined SASAC in 2006. Steve likes the 'feeling of flying' you get from diving and being able to get up close to sea life. 'On land you see something 20 yards away - in the sea it's so close.'</p>" instructorName="Steve Kennedy"></span>
-				<img src="assets/media/instructors/SteveKennedy.jpg" class="img-rounded">
-			</a> 
-			<p>Steve Kennedy</p>
-		</div>
-	</div>
+<?php
+		}
+		$i++;
+	}
+?>
 </div>
 
 
@@ -113,21 +109,15 @@
 
 <script type="text/javascript">
 $(function() {
-	// OPACITY OF BUTTON SET TO 0%
 	$(".image-gallery-roll").css("opacity","0");
-	 
-	// ON MOUSE OVER
+
 	$(".image-gallery-roll").hover(function () {
-	 
-		// SET OPACITY TO 70%
 		$(this).stop().animate({
 		opacity: .7
 		}, "slow");
 	},
-	 
-	// ON MOUSE OUT
+
 	function () {
-		// SET OPACITY BACK TO 50%
 		$(this).stop().animate({
 		opacity: 0
 		}, "slow");
