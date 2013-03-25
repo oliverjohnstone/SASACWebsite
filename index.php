@@ -6,6 +6,8 @@ $mobileDetect = new MobileDetect();
 if ($mobileDetect->isMobile() && !$mobileDetect->isTablet()) {
 	// Send the mobile version of the site
 	require_once "mobile.php";
+	// header("HTTP/1.1 301 Moved Permanently");
+	// header("Location: http://m.sasac.co.uk");
 	exit;
 }
 ?>
@@ -136,9 +138,9 @@ foreach ($settings->pages as $array_key => $page) {
 			<!--[if IE]>
 			<div class="ie-short-bottom ie7-bottom"></div>
 			<![endif]-->
+			<div class="footer">&copy; Copyright <?php echo date("Y"); ?> St Albans Sub Aqua Club<br>
+				We use cookies on this site - <a href="http://en.wikipedia.org/wiki/HTTP_cookie" target="_blank">What is a cookie?</a></div>
 		</div>
-		<div class="footer">&copy; Copyright <?php echo date("Y"); ?> St Albans Sub Aqua Club<br>
-			We use cookies on this site - <a href="http://en.wikipedia.org/wiki/HTTP_cookie" target="_blank">What is a cookie?</a></div>
 	</div><!-- IE Container -->
 	</body>
 	<script type="text/javascript">

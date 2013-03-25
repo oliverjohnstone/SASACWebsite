@@ -1,5 +1,5 @@
 <?php
-	$toAddress = "oliver@ojs.co";
+	$toAddress = "hello@sasac.co.uk";
 	$fromAddress = "hello@sasac.co.uk";
 
 	function defaultValue($name, $default) {

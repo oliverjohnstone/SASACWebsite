@@ -1,4 +1,4 @@
-<p>Lets start by what is the definition of technical diving?</br></br>
+<p>Let's start by what is the definition of technical diving?</br></br>
 One such definition is: a form of <a href="http://en.wikipedia.org/wiki/Scuba_diving" target="_blank">scuba diving</a> that exceeds the conventional 
 scope (in terms of depth, bottom time and type of diving) of <a href="http://en.wikipedia.org/wiki/Recreational_diving" target="_blank">recreational diving</a>, although the vast majority of technical 
 divers dive for recreation and no other purpose. Technical divers require advanced training, extensive experience, specialized equipment and 
