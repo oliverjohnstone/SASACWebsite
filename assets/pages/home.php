@@ -1,12 +1,12 @@
 <div>
 	<p><span class="bold">Welcome to St Albans Sub Aqua Club's website!</span> We are an active branch of the <a href="http://www.bsac.com" target="_blank">BSAC</a> 
 	 	(British Sub Aqua Club) diving group with about 100 members, we have numerous facilities for those hard core divers as well as any newcomers, we also have a 
-	 	great set of instructors eager to teach, so why not join us for the next seasons diving. Diving is an experience like no other, many 
+	 	great set of instructors eager to teach, so why not join us for the next season's diving. Diving is an experience like no other, many 
 	 	people often describe it as like being an astronaut, who didn't want to be an astronaut when they were younger? Well now you can!</p>
 
 	<p><span class="bold">So what has our club got to offer?</span> Our club is full of incredibly insightful and upbeat members, all of whom
 		are willing to get stuck in and help wherever they can. We hold regular trips to both the chillier waters of the UK including Porthkerris,
-		Weymouth, Lochaline, Farne islands, ... and the warmer waters of aboard including Egypt, Spain, South Pacific, Maldives and much, much more.</p>
+		Weymouth, Lochaline, Farne islands, ... and the warmer waters of abroad including Egypt, Spain, South Pacific, Maldives and much, much more.</p>
 
 	<p><span class="bold">Our Facilities</span>, to name a few
 		<ul>
@@ -24,8 +24,8 @@
 	</p>
 
 	<p>We are able to cater for all your diving needs, whether you are a fully blown technical cave diver with a rebreather and open circuit to boot
-		or just looking for the occasional blue water dive, and everyone in-between. If your not sure, why not come down to our clubhouse and meet everyone or
-		take a try dive and see if you'll like it, you wont regret it.</p>
+		or just looking for the occasional blue water dive, and everyone in-between. If you're not sure, why not come down to our clubhouse and meet everyone or
+		take a try dive and see if you'll like it, you won't regret it.</p>
 
 	<p class="bold">Check out this years <a href="Photo-Competition">photo competition</a> winners and like us on <a target="_blank" href="http://www.facebook.com/StAlbansSubAquaClub">
 		facebook</a>.</p>

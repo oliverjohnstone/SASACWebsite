@@ -7,9 +7,9 @@
 		<div class='image-gallery-column'>
 			<a class='image-gallery-image' href='#'>
 				<span class='roll-noimage'>1<span class='class'>st</span></span>
-				<img src="assets/media/photocompetition/2013/Tropical/WeirdAndWonderful/SuzyJarmenShrimp_thumbnail.jpg" alt="Shrimp" class="img-rounded">
+				<img src="assets/media/photocompetition/2013/Tropical/WeirdAndWonderful/SuzyJarmanShrimp_thumbnail.jpg" alt="Shrimp" class="img-rounded">
 			</a> 
-			<p>Suzy Jarmen</p>
+			<p>Suzy Jarman</p>
 		</div>
 
 		<div class='image-gallery-column'>
@@ -53,9 +53,9 @@
 		<div class='image-gallery-column'>
 			<a class='image-gallery-image' href='#'>
 				<span class='roll-noimage'>3<span class='class'>st</span></span>
-				<img src="assets/media/photocompetition/2013/Tropical/SizeMatters/SuzyJarmenNapoleonWrasse_thumbnail.jpg" alt="Napoleon Wrasse" class="img-rounded">
+				<img src="assets/media/photocompetition/2013/Tropical/SizeMatters/SuzyJarmanNapoleonWrasse_thumbnail.jpg" alt="Napoleon Wrasse" class="img-rounded">
 			</a> 
-			<p>Suzy Jarmen</p>
+			<p>Suzy Jarman</p>
 		</div>
 		
 		<div class='image-gallery-column last-column'>
@@ -75,9 +75,9 @@
 		<div class='image-gallery-column'>
 			<a class='image-gallery-image' href='#'>
 				<span class='roll-noimage'>2<span class='class'>st</span></span>
-				<img src="assets/media/photocompetition/2013/Tropical/PerfectMoment/SuzyJarmenTurtle_thumbnail.jpg" alt="Turtle" class="img-rounded">
+				<img src="assets/media/photocompetition/2013/Tropical/PerfectMoment/SuzyJarmanTurtle_thumbnail.jpg" alt="Turtle" class="img-rounded">
 			</a> 
-			<p>Suzy Jarmen</p>
+			<p>Suzy Jarman</p>
 		</div>
 
 		<div class='image-gallery-column'>
@@ -202,17 +202,17 @@
 		<div class='image-gallery-column'>
 			<a class='image-gallery-image' href='#'>
 				<span class='roll-noimage'>2<span class='class'>st</span></span>
-				<img src="assets/media/photocompetition/2013/BritishWater/WeirdAndWonderful/DavidJarmenStarfish_thumbnail.jpg" alt="Starfish and dead mans fingers" class="img-rounded">
+				<img src="assets/media/photocompetition/2013/BritishWater/WeirdAndWonderful/DavidJarmanStarfish_thumbnail.jpg" alt="Starfish and dead mans fingers" class="img-rounded">
 			</a> 
-			<p>David Jarmen</p>
+			<p>David Jarman</p>
 		</div>
 
 		<div class='image-gallery-column'>
 			<a class='image-gallery-image' href='#'>
 				<span class='roll-noimage'>3<span class='class'>st</span></span>
-				<img src="assets/media/photocompetition/2013/BritishWater/WeirdAndWonderful/DavidJarmenStartPoint_thumbnail.jpg" alt="Start Point" class="img-rounded">
+				<img src="assets/media/photocompetition/2013/BritishWater/WeirdAndWonderful/DavidJarmanStartPoint_thumbnail.jpg" alt="Start Point" class="img-rounded">
 			</a> 
-			<p>David Jarmen</p>
+			<p>David Jarman</p>
 		</div>
 		
 		<div class='image-gallery-column last-column'>

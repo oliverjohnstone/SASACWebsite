@@ -15,12 +15,12 @@
 		engineer, Alan Mawford.
 	</p>
 
-	<p>
+<!-- 	<p>
 		<p class="bold">Booster Pump</p>
 		A booster pump is a type of compressor that can be used to top cylinders up with elevated levels of O2. Our booster pump can be taken 
 		on dive trips to provide easy and cheap access to compressed oxygen. Booster pumps are especially useful for longer trips and the rebreather and
 		Nitrox divers in the club.
-	</p>
+	</p> -->
 <!-- 	<img src="/assets/img/booster-pump.jpg">
 
 	<img src="/assets/img/kit-hire.jpg"> -->

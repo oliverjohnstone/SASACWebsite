@@ -93,8 +93,6 @@
 		$i++;
 	}
 ?>
-</div>
-
 
 <div class="modal hide fade" id="instructor-info">
 	<div class="modal-header">
@@ -134,3 +132,5 @@ $(function() {
 	});
 });
 </script>
+
+</div>
