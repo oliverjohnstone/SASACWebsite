@@ -27,11 +27,6 @@
 			"instructor" => "BSAC First Class Diver",
 			"description" => "Learnt to dive in 1976 and then joined Potters Bar Sub Aqua Club before joining SASAC in 1988. 'Diving is one of the few things that stops me worrying about work.' A keen technical diver, Peter has taken the Trimix Diver certification, and is qualified to run most of the BSAC Skill Development Courses."
 		)
-		// "Alan Mawford" => array(
-		// 	"grade" => "",
-		// 	"instructor" => "",
-		// 	"description" => ""
-		// ),
 		// "Lisa Shafe" => array(
 		// 	"grade" => "",
 		// 	"instructor" => "",

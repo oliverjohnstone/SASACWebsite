@@ -27,10 +27,22 @@
 		or just looking for the occasional blue water dive, and everyone in-between. If you're not sure, why not come down to our clubhouse and meet everyone or
 		take a try dive and see if you'll like it, you won't regret it.</p>
 
-	<p class="bold">Check out this years <a href="Photo-Competition">photo competition</a> winners and like us on <a target="_blank" href="http://www.facebook.com/StAlbansSubAquaClub">
-		facebook</a>.</p>
+	<h3>Awards</h3>
+	<p>SASAC have just been awarded two certificates from the British Sub Aqua Club in recognition of the fact that our branch has trained the most
+		Sports Divers and the second most Advanced Divers in 2012. We are extremely proud of this achievement and the great work will continue.</p>
 
+	<div class='center'>
+		<a href="/assets/media/general/60thAnvSDCert-Lrg.jpg"><img src="/assets/media/general/60thAnvSDCert-Sml.jpg" class="cert-img-rounded"></a>
+		<a href="/assets/media/general/60thAnvADCert-Lrg.jpg"><img src="/assets/media/general/60thAnvADCert-Sml.jpg" class="cert-img-rounded"></a>
+	</div>
+
+<!-- 	<p class="bold">Check out this years <a href="Photo-Competition">photo competition</a> winners and like us on <a target="_blank" href="http://www.facebook.com/StAlbansSubAquaClub">
+		facebook</a>.</p>
+ -->
 	<h3 class="red">News</h3>
+	<p class="bold">Watch out for news of our upcoming dive-a-thon from 27th July - 28th July in aid of <a href="http://scubatrust.org.uk/"
+		target="blank">ScubaTrust</a> and <a href="http://www.helpforheroes.org.uk/" target="blank">Help For Heroes</a>.</p>
+	<hr/>
 	<p><span class="bold">One Space Left on the Porthkerris Trip</bold></br></br>
 		Trip Details
 		<ul>

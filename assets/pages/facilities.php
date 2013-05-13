@@ -10,17 +10,23 @@
 	<img src="/assets/img/compressor.jpg"> -->
 	<p>
 		<p class="bold">Compressor</p>
-		The club compressor is free to use for all diving members, it can save a lot of time and money off getting fills at a dive site and
-		you can fill your 300bar cylinders. All diving members are trained in the use of the compressor and it is well maintained by our resident
-		engineer, Alan Mawford.
+		The costs of all the air fills from the club compressor are included in a divers membership fee’s, it will save you both time and 
+		money compared with getting your airs fills at a dive site. We can supply double filtered air to 300 bar. All diving members are 
+		trained in the use of the air station so they can fill their own cylinders at any time and not just when the club is open on a Wednesday 
+		night, making that last minute get away even easier.
 	</p>
 
-<!-- 	<p>
+ 	<p>
 		<p class="bold">Booster Pump</p>
-		A booster pump is a type of compressor that can be used to top cylinders up with elevated levels of O2. Our booster pump can be taken 
-		on dive trips to provide easy and cheap access to compressed oxygen. Booster pumps are especially useful for longer trips and the rebreather and
-		Nitrox divers in the club.
-	</p> -->
+		A Booster Pump works very much like a standard air compressor. It will take a high volume gas at low pressure (minimum of 30bar) and pump 
+		it into a lower volume cylinder at higher pressure. In the UK the J cylinders of diving grade oxygen we use are generally delivered with 
+		only 200 bar of pressure in them, if you want to fill your Rebreather Oxygen cylinders to 232bar you will need access to a booster pump. 
+		It also has the major benefit of being able to help with the blending of Nitrox fills for Open circuit divers as well. You will no longer 
+		have to drain down your cylinders as we can virtually guarantee to have enough high pressure oxygen to boost into your cylinders, therefore 
+		saving time and money. Also if you had any part filled trimix cylinders you could us this pump to consolidate the gas and either free up 
+		twinsets or be able to make best use of the remaining gas. As St Albans Sub Aqua Club wanted to promote safe diving and has an expanding 
+		number of Rebreather and Technical divers it took the decision to invest in one and therefore we can now offer this service to our members.
+	</p>
 <!-- 	<img src="/assets/img/booster-pump.jpg">
 
 	<img src="/assets/img/kit-hire.jpg"> -->
@@ -33,10 +39,10 @@
 
 
 	<p>
-		<p class="bold">Oxygen Banks</p>
-		We have a set of Oxygen banks in the compressor room, this allows all our trained members to use Nitrox (enriched air) to dive and for 
-		our rebreather friends to fill up their cylinders with 100% O2. We also provide Skill Development Courses in gas blending which will
-		give you the qualification to blend your own gas mixes.
+		<p class="bold">Nitrox</p>
+		SASAC has banks of Diving Grade Oxygen to allow appropriately trained members to supply Nitrox (Enriched Air) to qualified divers.  
+		We can also supply 100% oxygen up to 232bar for re-breather divers via the use of the club booster pump. We run in house Skill Development 
+		Courses in gas blending which will give you the qualification to blend your own gas.
 	</p>
 <!-- 	<img src="/assets/img/o2-banks.jpg">
 
@@ -72,13 +78,6 @@
 		of BSAC SDCs can be found on the <a href="http://www.bsac.com" target="_blank">BSAC website</a>.
 	</p>
 	<!-- <img src="/assets/img/sdc.jpg"> -->
-
-	<!-- <p>
-		<p class="bold">Mutual Fund</p>
-		The mutual fund is a pot of money that, in the event of you loosing a piece of kit, you can claim from to replace your equipment.
-		If you would like to join the mutual fund you will need to agree to the <a href="insert-link-here">rules</a> and contribute your share to 
-		the fund. Its simply an insurance on your kit, after all, if you paid &pound;500.00 for a torch and lost if overboard, you wouldn't be too happy.
-	</p> -->
 
 	<p>
 		<p class="bold">Lecture Theatre</p>
