@@ -1,5 +1,7 @@
 <div>
-	<p>This is a list of the currently active instructors at St Albans Sub Aqua Club.</p>
+	<p>This is a list of the currently active instructors and committee members.</p>
+
+	<h2>Instructors</h2>
 <?php
 	$instructors = array(
 		"Carl Graham" => array(
@@ -54,10 +56,57 @@
 		// ),
 	);
 
+	$committee = array(
+		"Oliver Johnstone" => array(
+			"role" => "IT",
+			"description" => "Oliver looks after the IT side of things such as this website, email, the forum etc."
+		),
+		"Chris Hyde" => array(
+			"role" => "Ordinary Member",
+			"description" => "Ordinary members come along to committee meetings and help make critical decisions that will affect the club."
+		),
+		"Jude Hyde" => array(
+			"role" => "Bar Manager",
+			"description" => "Jude has a very important job; Keeping the bar stocked. She is assisted by her husband Chris as well as Brian and David."
+		),
+		"Sarah Kennedy" => array(
+			"role" => "Ordinary Member",
+			"description" => "Ordinary members come along to committee meetings and help make critical decisions that will affect the club."
+		),
+		"Lisa Shafe" => array(
+			"role" => "Diving Officer",
+			"description" => "Lisa looks after all things related to diving. She is in charge of making sure we are all diving safely and organising trips."
+		),
+		"David Bolton" => array(
+			"role" => "Ordinary Member",
+			"description" => "Ordinary members come along to committee meetings and help make critical decisions that will affect the club."
+		),
+		"Howard Clowes" => array(
+			"role" => "Secretary",
+			"description" => "Howard looks after taking notes at committee meetings as well as looking after announcements and much more."
+		),
+		"Richard Turner" => array(
+			"role" => "Treasurer",
+			"description" => "Richard looks after the money side of things and makes sure we are staying within our budget."
+		),
+		"Ben Wild" => array(
+			"role" => "Ordinary Member",
+			"description" => "Ordinary members come along to committee meetings and help make critical decisions that will affect the club."
+		),
+		"Chris Baker" => array(
+			"role" => "Equipment Officer",
+			"description" => "Chris looks after all the equipment, making sure it is in working order for your next dive. He also provides pool cover every week while you're training."
+		)
+	);
+
 	ksort($instructors);
+	ksort($committee);
 
 	$i = 1;
+?>
+	<div class="image-wall">
 
+<?php
 	foreach ($instructors as $name => $attrbs) {
 		$grade = $attrbs["grade"];
 		$instructor = $attrbs["instructor"];
@@ -65,29 +114,66 @@
 		$image = str_replace(" ", "", $name);
 		if ($i === 1) {
 ?>
-	<div class='image-gallery-row'>
+		<div class='image-gallery-row'>
 <?php
 		}
 ?>
 
-		<div class='image-gallery-column'>
-			<a class='image-gallery-image' href='#'>
-				<span class='image-gallery-roll' instructorInfo="<h5><?php echo $name; ?>, <?php echo $grade; ?></h5><h6><?php echo $instructor; ?></h6><p><?php echo $description; ?></p>" instructorName="<?php echo $name; ?>"></span>
-				<img src="assets/media/instructors/<?php echo $image; ?>.jpg" class="img-rounded">
-			</a> 
-			<p><?php echo $name; ?></p>
-		</div>
+			<div class='image-gallery-column'>
+				<a class='image-gallery-image' href='#'>
+					<span class='image-gallery-roll' instructorInfo="<h5><?php echo $name; ?>, <?php echo $grade; ?></h5><h6><?php echo $instructor; ?></h6><p><?php echo $description; ?></p>" instructorName="<?php echo $name; ?>"></span>
+					<img src="assets/media/team/<?php echo $image; ?>.jpg" class="img-rounded">
+				</a> 
+				<p><?php echo $name; ?></p>
+			</div>
 
 <?php
 		if ($i === 4) {
 			$i = 0;
 ?>
-	</div>
+		</div>
 <?php
 		}
 		$i++;
 	}
 ?>
+	</div>
+	<h2>Committee</h2>
+	<div class"image-wall">
+<?php
+	$i = 1;
+
+	foreach ($committee as $name => $attrbs) {
+		$role = $attrbs["role"];
+		$description = $attrbs["description"];
+		$image = str_replace(" ", "", $name);
+		if ($i === 1) {
+?>
+		<div class='image-gallery-row'>
+<?php
+		}
+?>
+
+			<div class='image-gallery-column'>
+				<a class='image-gallery-image' href='#'>
+					<span class='image-gallery-roll' instructorInfo="<h5><?php echo $name; ?> (<?php echo $role; ?>)</h5><p><?php echo $description; ?></p>" instructorName="<?php echo $name; ?>"></span>
+					<img src="assets/media/team/<?php echo $image; ?>.jpg" class="img-rounded">
+				</a> 
+				<p><?php echo $name; ?></p>
+			</div>
+
+<?php
+		if ($i === 4) {
+			$i = 0;
+?>
+		</div>
+<?php
+		}
+		$i++;
+	}
+?>
+	</div>
+
 
 <div class="modal hide fade" id="instructor-info">
 	<div class="modal-header">

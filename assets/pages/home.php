@@ -36,22 +36,12 @@
 		<a href="/assets/media/general/60thAnvADCert-Lrg.jpg"><img src="/assets/media/general/60thAnvADCert-Sml.jpg" class="cert-img-rounded"></a>
 	</div>
 
-<!-- 	<p class="bold">Check out this years <a href="Photo-Competition">photo competition</a> winners and like us on <a target="_blank" href="http://www.facebook.com/StAlbansSubAquaClub">
-		facebook</a>.</p>
- -->
 	<h3 class="red">News</h3>
 	<p class="bold">Watch out for news of our upcoming dive-a-thon from 27th July - 28th July in aid of <a href="http://scubatrust.org.uk/"
 		target="blank">ScubaTrust</a> and <a href="http://www.helpforheroes.org.uk/" target="blank">Help For Heroes</a>.</p>
 	<hr/>
-	<p><span class="bold">One Space Left on the Porthkerris Trip</bold></br></br>
-		Trip Details
-		<ul>
-			<li>Sat to Mon, 18 to 20 May</li>
-			<li>&pound;250 for 3 days diving &amp; 3 nights accommodation</li>
-			<li>Sports Diver &amp; above, 35m</li>
-			<li>One boat, Celtic Cat, 12 divers</li>
-		</ul>
-		Please contact Suzy Jarman if you would like further details and/or if you want to book on this trip, 
-		you can contact her using the <a href="mailto:hello@sasac.co.uk">hello@sasac.co.uk</a> email address or the contact us form.
-	</p>
+
+	<p class="bold">Check out this years <a href="Photo-Competition">photo competition</a> winners and like us on <a target="_blank" href="http://www.facebook.com/StAlbansSubAquaClub">
+	facebook</a>.</p>
+
 </div>

@@ -81,7 +81,7 @@ if ($mobileDetect->isMobile() && !$mobileDetect->isTablet()) {
 foreach ($settings->pages as $array_key => $page) {
 	if (!$page->verticalMenuItem) continue;
 	$key = array_search($array_key, (array) $settings->paths);
-	if (!$key) continue;
+	if (!$key || $page->hidden) continue;
 	$name = $page->name;
 	$path = $key;
 	$class = "menuitem";
@@ -99,6 +99,7 @@ foreach ($settings->exceptions as $key => $value) {
 }
 ?>
 				</ul>
+				<div class="spacer"></div>
 			</div>
 			<div class="content">
 				<div class="horizontal-menu">
@@ -107,7 +108,7 @@ foreach ($settings->exceptions as $key => $value) {
 foreach ($settings->pages as $array_key => $page) {
 	if ($page->verticalMenuItem) continue;
 	$key = array_search($array_key, (array) $settings->paths);
-	if (!$key) continue;
+	if (!$key || $page->hidden) continue;
 	$name = $page->name;
 	$path = $key;
 	$class = "menuitem";

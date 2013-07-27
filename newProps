@@ -1,0 +1,9 @@
+		"trips": {
+			"name": "Trips",
+			"path": "trips.php",
+			"title": "St Albans Sub Aqua Trip Reports",
+			"verticalMenuItem": true
+		},
+
+		"Trips": "trips",
+		

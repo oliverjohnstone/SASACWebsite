@@ -18,3 +18,13 @@ RewriteRule ^(.*)$ index.php?page=$1 [L,QSA]
 	order deny,allow
 	deny from all
 </Files>
+
+<Files EmailParser.php>
+	order deny,allow
+	deny from all
+</Files>
+
+<Files MailingList.php>
+	order deny,allow
+	deny from all
+</Files>

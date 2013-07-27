@@ -5,8 +5,59 @@ body {
 	font-size: 15px;
 	line-height: 18px;
 }
+.trip-panel {
+	width: 100%;
+	position: relative;
+	margin-bottom: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+	height: 110px;
+}
+.trip-panel:hover {
+	background-color: #EFF5FB;
+	cursor: pointer;
+}
+.trip-brief {
+	position: relative;
+	text-align: justify;
+	padding-right: 5px;
+	height: 80px;
+	overflow: hidden;
+}
+.trip-brief:first-letter {
+	font-size:200%;
+	color:#8A2BE2;
+}
+.trip-details {
+	position: relative;
+	left: 2px;
+	top: 2px;
+}
+.trip-details ul {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+.trip-details li {
+	float: left;
+}
+.trip-details p {
+	width: 137px;
+}
+.trip-panel-img {
+	position: relative;
+	float: left;
+	padding: 5px 5px 0 5px;
+	width: 140px;
+}
+.trips {
+	padding-top: 10px;
+}
 .red {
 	color: #FF0000;
+}
+.spacer {
+	height: 10px;
 }
 .link-logo {
 	padding: 5px;
@@ -273,7 +324,7 @@ li{
 	background-color: #F8F8F8;
 	margin-left: 11px;
 	margin-right: 11px;
-	height: 660px;
+/*	height: 660px;*/
 	border-bottom-left-radius: 10px;
 }
 .menu ul {
@@ -333,7 +384,7 @@ li{
 .edge{
 	background-image: url('../img/edge.png');
 	background-repeat: repeat-y;
-	height: 670px;
+	height: 722px;
 	width: 3px;
 	position: relative;
 	float: left;
@@ -359,7 +410,7 @@ li{
 	left: 1px;
 	width: 720px;
 	padding-left: 1px;
-	min-height: 670px;
+	min-height: 726px;
 	background-color: #F8F8F8;
 	margin-top: 70px;
 	margin-right: 42px;

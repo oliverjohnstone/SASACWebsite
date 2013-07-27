@@ -13,7 +13,8 @@
 		"Restoration",
 		"Technical",
 		"Rebreather",
-		"Booster Pump"
+		"Booster Pump",
+		"Lido"
 	],
 	"exceptions": {},
 	"pages": {
@@ -53,16 +54,22 @@
 			"title": "Come snorkel with SASAC",
 			"verticalMenuItem": true
 		},
+		"swimming": {
+			"name": "Swimming",
+			"path": "swimming.php",
+			"title": "Swimming With SASAC",
+			"verticalMenuItem": true
+		},
 		"social": {
 			"name": "Social",
 			"path": "social.php",
 			"title": "SASAC Has A Social Side",
 			"verticalMenuItem": true
 		},
-		"theInstructors": {
-			"name": "The Instructors",
-			"path": "theinstructors.php",
-			"title": "Meet The Instructors",
+		"theTeam": {
+			"name": "The Team",
+			"path": "theteam.php",
+			"title": "Meet The Team",
 			"verticalMenuItem": true
 		},
 		"calendar": {
@@ -112,6 +119,13 @@
 			"path": "pagenotfound.php",
 			"title": "Page Not Found",
 			"verticalMenuItem": false
+		},
+		"soundOfMull": {
+			"name": "SoundOfMull",
+			"path": "trips/SoundOfMull2013.php",
+			"title": "Sound Of Mull 2013",
+			"hidden": true,
+			"verticalMenuItem": false
 		}
 	},
 	"paths": {
@@ -120,8 +134,9 @@
 		"Training": "training",
 		"Technical-Diving": "technicalDiving",
 		"Snorkelling": "snorkelling",
+		"Swimming": "swimming",
 		"Social": "social",
-		"The-Instructors": "theInstructors",
+		"The-Team": "theTeam",
 		"Calendar": "calendar",
 		"Photo-Competition": "photoCompetition",
 		"Restoration-Grant": "restorationGrant",
@@ -129,6 +144,7 @@
 		"Facilities": "facilities",
 		"Links": "links",
 		"Contact-Us": "contactUs",
-		"Downloads": "downloads"
+		"Downloads": "downloads",
+		"SoundOfMull2013": "soundOfMull"
 	}
 }
